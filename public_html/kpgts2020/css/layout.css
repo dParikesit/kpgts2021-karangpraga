@@ -8,21 +8,21 @@ main {
 }
 
 a:not(.button) {
-  color: #ffa620!important;
+  color: #c88f3c!important;
 }
 
 a:hover:not(.button) {
-  color: #f29301!important;
+  color: #ffa620!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #050742;
+  color: #442b22;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .footer h5 {
-  color: #f29301;
+  color: #f3dcb2;
 }
 
 h1 { font-size:  2.5rem; }
@@ -31,21 +31,21 @@ h3 { font-size:  1.5rem; }
 h4 { font-size: 1.25rem; }
 
 .main {
-  background-color: #dee9eb;
-  background: -webkit-linear-gradient(#dee9eb, #e8f4f6);
-  background: -o-linear-gradient(#dee9eb, #e8f4f6);
-  background: -moz-linear-gradient(#dee9eb, #e8f4f6);
-  background: linear-gradient(#dee9eb, #e8f4f6);
+  background-color: #f3dcb2;
+  background: -webkit-linear-gradient(#f3dcb2, #ffdfa6);
+  background: -o-linear-gradient(#f3dcb2, #ffdfa6);
+  background: -moz-linear-gradient(#f3dcb2, #ffdfa6);
+  background: linear-gradient(#f3dcb2, #ffdfa6);
 }
 
 
 /* Color Pallete
- * #f29301 : orange
- * #ffa620 : yellow
- * #050742 : dark blue
- * #0f0c65 : light blue (still dark, though)
- * #830119 : dark red
- * #830119 : light red
+ * #442b22 : coklat
+ * #6e584f : coklat mudaf3dcb2
+ * #f3dcb2 : cream
+ * #c88f3c : orange
+ * #334531 : ijo tua
+ * #000000 : item
  */
 
 .navbar {
@@ -75,7 +75,7 @@ h4 { font-size: 1.25rem; }
 .navbar-link:hover,
 a.navbar-item.is-active,
 a.navbar-item:hover  {
-  background-color: #050742;
+  background-color: #442b22;
 }
 
 a.navbar-item span {
@@ -84,16 +84,16 @@ a.navbar-item span {
 }
 
 a.navbar-item:hover span {
-  border-bottom-color: #f29301;
+  border-bottom-color: #f3dcb2;
 }
 
 .navbar-burger span {
   height: 2px;
-  color: #f29301;
+  color: #f3dcb2;
 }
 
 .footer {
-  background-color: #050742;
+  background-color: #442b22;
 }
 
 @media screen and (min-width: 769px) {
@@ -118,7 +118,7 @@ a.navbar-item:hover span {
 strong,
 .menu-label,
 .main h1 {
-  color: #050742;
+  color: #442b22;
 }
 
 .menu-list a {
@@ -133,17 +133,17 @@ strong,
 }
 
 .pagination-link.is-current {
-  border-color: #f29301;
+  border-color: #f3dcb2;
 }
 
 .button.is-success,
 .button.is-success:hover {
-  background-color: #050742;
+  background-color: #442b22;
 }
 
 .button.is-primary,
 .button.is-primary:hover {
-  background-color: #050742;
+  background-color: #442b22;
 }
 
 .button.is-danger,

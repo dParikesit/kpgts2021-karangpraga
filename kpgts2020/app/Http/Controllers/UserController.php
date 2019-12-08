@@ -34,7 +34,7 @@ class UserController extends Controller
       $regist->nomor_peserta     = '';
       $regist->sma               = '';
       $regist->kelompok_ujian    = 'Saintek';
-      $regist->biaya             = 35000;
+      $regist->biaya             = 45000;
       $regist->no_hp             = '';
       $regist->no_wa             = '';
       $regist->id_line           = '';

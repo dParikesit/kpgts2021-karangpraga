@@ -57,6 +57,7 @@
                   <select name="kelompok-ujian">
                     <option value="Saintek">Saintek</option>
                     <option value="Soshum">Soshum</option>
+                    <option value="Soshum">Campuran</option>
                   </select>
                 </div>
               </div>

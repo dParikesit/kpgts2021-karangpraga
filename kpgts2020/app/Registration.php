@@ -32,8 +32,9 @@ class Registration extends Model
         while (strlen($nomor_peserta) < 5) {
           $nomor_peserta = "0" . $nomor_peserta;
         }
-        if ($this->kelompok_ujian == "Saintek")     { $nomor_peserta = "01-" . $nomor_peserta; }
-        else if ($this->kelompok_ujian == "Soshum") { $nomor_peserta = "02-" . $nomor_peserta; }
+        if ($this->kelompok_ujian == "Saintek")         { $nomor_peserta = "01-" . $nomor_peserta; }
+        else if ($this->kelompok_ujian == "Soshum")     { $nomor_peserta = "02-" . $nomor_peserta; }
+        else if ($this->kelompok_ujian == "Campuran")   { $nomor_peserta = "03-" . $nomor_peserta; }
         $nomor_peserta = "008-" . $nomor_peserta;
 
         $this->nomor_peserta = $nomor_peserta;
@@ -47,7 +48,7 @@ class Registration extends Model
             $this->user->name == '' ||
             $this->sma == '' ||
             $this->kelompok_ujian == '' ||
-            !($this->biaya == 35000) ||
+            !($this->biaya == 45000 || $this->biaya == 50000) ||
             $this->metode_pembayaran == '' ||
             $this->no_hp == '' ||
             $this->no_wa == ''

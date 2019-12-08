@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="/css/pacman.css">
 <style type="text/css">
   .tag:not(body).is-success {
-    background-color: #f29301;
+    background-color: #f3dcb2;
   }
   table#tabel-peserta {
     font-size: .9rem;
