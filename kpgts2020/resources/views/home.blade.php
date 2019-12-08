@@ -82,12 +82,12 @@
         <img class="cloud-2" src="/img/cloud-2.png"></img>
         <img class="cloud-3" src="/img/cloud-3.png"></img>
       </div>
-      <section class="hero is-medium" id="second" style="background-color:#050742; position: relative;">
+      <section class="hero is-medium" id="second" style="background-color:#442b22; position: relative;">
         <div class="hero-body">
           <div class="container">
             <div class="columns">
-              <div class="column is-7" style="color:#f29301">
-                <h1 style="color:#f29301"> KPGTS 2020</h1>
+              <div class="column is-7" style="color:#f3dcb2">
+                <h1 style="color:#f3dcb2"> KPGTS 2020</h1>
                 <p>
                   KPGTS 2020 (Karang Praga Goes To School 2020) adalah acara yang diadakan
                   mahasiswa ITB asal Semarang untuk memfasilitasi adik-adik SMA yang ingin masuk ITB
@@ -98,7 +98,7 @@
                 </p>
               </div>
               <div class="column is-5" style="text-align: center">
-                <img src="/img/logo-square.png" style="max-width:50%">
+                <img src="/img/logo-square-putih.png" style="max-width:50%">
               </div>
             </div>
             
@@ -133,10 +133,10 @@
           </div>
         </div>
       </section>
-      <section class="hero" id="fourth" style="background-color:#050742; position: relative;">
+      <section class="hero" id="fourth" style="background-color:#442b22; position: relative;">
         <div class="hero-body">
-          <div class="container" style="color:#f29301">
-            <h1 style="color:#f29301"> TONAMPTN </h1>
+          <div class="container" style="color:#f3dcb2">
+            <h1 style="color:#f3dcb2"> TONAMPTN </h1>
             <p>
               KPGTS juga mengadakan Try Out Nasional Masuk Perguruan Tinggi Negeri
               (TONAMPTN) yang digelar bersamaan di lebih dari 30 kota dari seluruh Nusantara.
@@ -158,7 +158,7 @@
           </div>
         </div>
       </section>
-      <section class="hero" style="background-color: transparent; text-align: center; color:#050742" id="fifth">
+      <section class="hero" style="background-color: transparent; text-align: center; color:#442b22" id="fifth">
         <div class="hero-head">
         </div>
         <div class="hero-body">
@@ -166,14 +166,14 @@
             <h1> Kontak </h1>
             <div class="columns is-multiline">
             <div class="column is-offset-4 is-4">
-              <a targer="_blank" href="https://line.me/R/ti/p/%40iyn9473m" style="color: unset!important">
+              <a targer="_blank" href="https://lin.ee/ewVA4on" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
                     <p class="image is-64x64"> <img src="/img/icons/line.png"> </p>
                   </figure>
                   <div class="media-content">
                     <div class="content">
-                      <p> <strong>Line Official Account</strong> <br> @ID_LINE_DIGANTI_YAAA </p>
+                      <p> <strong>Line Official Account</strong> <br> @673spfha </p>
                     </div>
                   </div>
                 </article>
@@ -194,7 +194,7 @@
               </a>
             </div>
             <div class="column is-offset-4 is-4">
-              <a targer="_blank" href="mailto:karangraga@gmail.com" style="color: unset!important">
+              <a targer="_blank" href="mailto:kpgts2020@gmail.com" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
                     <p class="image is-64x64"> <img src="/img/icons/mail.png"> </p>

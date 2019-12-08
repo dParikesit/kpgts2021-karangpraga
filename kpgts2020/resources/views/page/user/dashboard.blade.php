@@ -45,7 +45,7 @@
 
             <p> Apabila ada pertanyaan-pertanyaan lebih lanjut mengenai Tryout, silakan tanyakan melalui: </p>
                 1.&nbsp;<strong><a href="LINK_LINE_SQUARE_DIGANTI_YAA" target="_blank">Line Square Ca-ITB 2020</a></strong>&nbsp;chatroom &quot;TONAMPTN&quot;<br/>
-                2.&nbsp;<strong><a href="LINK_OA_LINE_DIGANTI_YAA">Line&nbsp;Official Account KPGTS 2020</a></strong></p>
+                2.&nbsp;<strong><a href="https://lin.ee/ewVA4on">Line&nbsp;Official Account KPGTS 2020</a></strong></p>
           @else 
             <p> Status anda <strong>BELUM terverifikasi</strong>. </p>
             <p> Nomor Registrasi Anda: <strong>{{ $user->registration->id }}</strong> </p>

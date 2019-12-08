@@ -1,5 +1,5 @@
 body {
-  color: #050742;
+  color: #442b22;
   width: 100vw;
 }
 
@@ -83,14 +83,14 @@ a.navbar-item:hover,
 
 .button.is-outline-blue {
   background-color: transparent;
-  border-color: #050742;
-  color: #050742;
+  border-color: #442b22;
+  color: #442b22;
 }
 
 .button.is-outline-orange {
   background-color: transparent;
-  border-color: #f29301;
-  color: #f29301;
+  border-color: #f3dcb2;
+  color: #f3dcb2;
 }
 
 .footer {
