@@ -53,8 +53,9 @@
             <p> Kamu memilih pembayaran melalui : <strong>{{ $user->registration->metode_pembayaran }}</strong> </p>
             @if ($user->registration->metode_pembayaran == 'Transfer')
               <p> Biaya pendaftaran: <strong>Rp. {{ floor($biaya/1000) }}.{{ sprintf("%03d",$biaya%1000) }},00</strong> </p>
-              <p> No. Rek BNI: <strong>NO_REK_BNI_DIGANTI_YAA</strong> a/n. <strong>NAMA_PEMILIK_REK_BNI_DIGANTI_YAA</strong> </p>
-              <p> No. Rek BCA: <strong>NO_REK_BCA_DIGANTI_YAA</strong> a/n. <strong>NAMA_PEMILIK_REK_BCA_DIGANTI_YAA</strong> </p>
+              <p> No. Rek BNI: <strong>0393722121</strong> a/n. <strong>Adhi Satriyatama</strong> </p>
+              <p> No. Rek BCA: <strong>0091756837</strong> a/n. <strong>Yudith Pratama Ibrahim</strong> </p>
+              <p> Gopay: <strong>081225951826</strong> a/n. <strong>Ardhya Garini</strong> </p>
               <p> Pastikan Anda mengirim sampai 3 digit terakhir </p>
             @else
               <p> Biaya pendaftaran: <strong>Rp. {{ floor($biaya/1000) }}.{{ sprintf("%03d",$biaya%1000) }},00</strong> </p>

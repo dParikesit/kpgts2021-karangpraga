@@ -28,73 +28,49 @@
                     <th> Sekolah </th>
                     <th> Tanggal </th>
                     <th> Mulai Pukul </th>
-                    <th> Tempat </th>
+                    <th> Metode </th>
                   </tr>
                   <tr>
-                    <td> SMAN 1 </td>
-                    <td> 3 Januari </td>
-                    <td> 07.00 </td>
+                    <td> SMAN 1 UNGARAN </td>
+                    <td> 2 Januari </td>
+                    <td> 09.00 </td>
+                    <td> Terpusat </td>
+                  </tr>
+                  <tr>
+                    <td> SMAN 5 SEMARANG </td>
+                    <td> 6 Januari </td>
+                    <td> 13.00 </td>
                     <td> Kelas </td>
                   </tr>
                   <tr>
-                    <td> SMAN 2 </td>
-                    <td> 4 Januari </td>
-                    <td> 13.45 </td>
-                    <td> Kelas </td>
+                    <td> SMAN 3 SEMARANG </td>
+                    <td> 6 Januari </td>
+                    <td> 15.30 </td>
+                    <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMAN 4 </td>
-                    <td> 3 Januari </td>
-                    <td> 14.00 </td>
-                    <td> Kelas </td>
-                  </tr>
-                  <tr>
-                    <td> SMAN 5 </td>
-                    <td> 4 Januari </td>
-                    <td> 12.30 </td>
-                    <td> Aula </td>
-                  </tr>
-                  <tr>
-                    <td> SMAN 12 </td>
-                    <td> 4 Januari </td>
+                    <td> SMA YSKI SEMARANG </td>
+                    <td> 7 Januari </td>
                     <td> 08.00 </td>
-                    <td> Kelas </td>
+                    <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMAN 15 </td>
-                    <td> 5 Januari </td>
-                    <td> 11.00 </td>
-                    <td> Kelas </td>
+                    <td> SMAN 1 DEMAK </td>
+                    <td> 7 Januari </td>
+                    <td> 08.00 </td>
+                    <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMAN 1 Ungaran </td>
-                    <td> 2 Januari </td>
-                    <td> 10.00 </td>
-                    <td> Kelas </td>
+                    <td> SMAN 2 SEMARANG </td>
+                    <td> 8 Januari </td>
+                    <td> 08.00 </td>
+                    <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> Karang Turi </td>
+                    <td> SMAN 1 KENDAL </td>
                     <td> 9 Januari </td>
-                    <td> 08.10 </td>
-                    <td> R. Teater </td>
-                  </tr>
-                  <tr>
-                    <td> Kolese Loyola </td>
-                    <td> 5 Januari </td>
-                    <td> 12.10 </td>
-                    <td> R. Pertemuan </td>
-                  </tr>
-                  <tr>
-                    <td> Sedes Sapientiae </td>
-                    <td> 2 Januari </td>
-                    <td> 10.00 </td>
-                    <td> R. Audio Visual </td>
-                  </tr>
-                  <tr>
-                    <td> Semesta </td>
-                    <td> 10 Januari </td>
-                    <td> 15.00 </td>
-                    <td> Aula </td>
+                    <td> 09.00 </td>
+                    <td> Kelas </td>
                   </tr>
                 </table>
               </div>

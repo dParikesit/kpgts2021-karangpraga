@@ -24,6 +24,8 @@
             <div class="column is-12">
               <h5> Contact Person: </h5>
               <p> Teresa Amalia (082226250334, LINE: tereamap) </p>
+              <p> Adhi Satriyatama (085785490091, LINE: adhist08) </p>
+              <p> Nanda (NO_TELP_NANDOOO_DIGANTI_YAA, LINE: ID_LINE_NANDO_DIGANTI_YAA) </p>
             </div>
             <div class="column is-12">
               <h5> Social Media </h5>
