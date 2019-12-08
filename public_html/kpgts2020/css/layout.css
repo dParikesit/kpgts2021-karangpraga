@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+main {
+  min-height: 50vh;
+}
+
+a:not(.button) {
+  color: #ffa620!important;
+}
+
+a:hover:not(.button) {
+  color: #f29301!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #050742;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer h5 {
+  color: #f29301;
+}
+
+h1 { font-size:  2.5rem; }
+h2 { font-size:    2rem; }
+h3 { font-size:  1.5rem; }
+h4 { font-size: 1.25rem; }
+
+.main {
+  background-color: #dee9eb;
+  background: -webkit-linear-gradient(#dee9eb, #e8f4f6);
+  background: -o-linear-gradient(#dee9eb, #e8f4f6);
+  background: -moz-linear-gradient(#dee9eb, #e8f4f6);
+  background: linear-gradient(#dee9eb, #e8f4f6);
+}
+
+
+/* Color Pallete
+ * #f29301 : orange
+ * #ffa620 : yellow
+ * #050742 : dark blue
+ * #0f0c65 : light blue (still dark, though)
+ * #830119 : dark red
+ * #830119 : light red
+ */
+
+.navbar {
+  padding: 1rem 1.5rem;
+}
+
+.navbar,
+.navbar .container,
+.navbar-brand,
+.navbar-burger {
+}
+
+.navbar-item img {
+  max-height: 100%;
+}
+
+.navbar-brand .navbar-item {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar,
+.navbar-menu,
+.navbar-item,
+.navbar-link,
+.navbar-link.is-active,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:hover  {
+  background-color: #050742;
+}
+
+a.navbar-item span {
+  border: 1px solid;
+  border-color: transparent;
+}
+
+a.navbar-item:hover span {
+  border-bottom-color: #f29301;
+}
+
+.navbar-burger span {
+  height: 2px;
+  color: #f29301;
+}
+
+.footer {
+  background-color: #050742;
+}
+
+@media screen and (min-width: 769px) {
+  span.foot-link {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  span.foot-link {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.menu-border {
+  min-width: 2px;
+  background-color: rgba(255, 166, 32, 0.3);
+  margin-right: 10px;
+}
+
+strong,
+.menu-label,
+.main h1 {
+  color: #050742;
+}
+
+.menu-list a {
+  font-weight: 400;
+}
+
+.pagination-link,
+.pagination-previous,
+.pagination-next,
+.pagination-link.is-current {
+  background-color: #fff;
+}
+
+.pagination-link.is-current {
+  border-color: #f29301;
+}
+
+.button.is-success,
+.button.is-success:hover {
+  background-color: #050742;
+}
+
+.button.is-primary,
+.button.is-primary:hover {
+  background-color: #050742;
+}
+
+.button.is-danger,
+.button.is-danger:hover {
+  background-color: #da0002;
+}
+
+.gallery img {
+  cursor: pointer;
+}

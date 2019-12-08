@@ -1,0 +1,98 @@
+body {
+  color: #050742;
+  width: 100vw;
+}
+
+.main {
+  background-color: unset;
+  background: unset;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-size: cover;
+  background-image: url('/img/bg-blank.jpg');
+}
+
+.clouds {
+  top: 0;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.clouds img {
+  overflow: hidden;
+  z-index: 3;
+  pointer-events: none;
+  max-width: 60vw;
+  position: absolute;
+}
+
+.cloud-1 {
+  background-image: url('/img/cloud-1.png');
+  width:300px;
+  top:70vh;
+}
+
+.cloud-2 {
+  background-image: url('/img/cloud-2.png');
+  width:250px;
+  top:5vh;
+  left:200px;
+}
+
+.cloud-3 {
+  background-image: url('/img/cloud-3.png');
+  width:140px;
+  top:25vh;
+  left:500px;
+}
+
+.hero {
+  background-color: transparent;
+}
+
+.hero#first {
+  background-image: url('/img/bg.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar {
+  font-weight: 700;
+}
+
+.navbar,
+.navbar-menu,
+.navbar-item,
+.navbar-link,
+.navbar-link.is-active,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:hover,
+.hero.is-info a.navbar-item:hover  {
+  background-color: transparent;
+}
+
+.button.is-outline-blue {
+  background-color: transparent;
+  border-color: #050742;
+  color: #050742;
+}
+
+.button.is-outline-orange {
+  background-color: transparent;
+  border-color: #f29301;
+  color: #f29301;
+}
+
+.footer {
+  position: relative;
+}
