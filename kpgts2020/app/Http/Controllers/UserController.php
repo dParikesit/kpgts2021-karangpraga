@@ -39,7 +39,7 @@ class UserController extends Controller
       $regist->no_wa             = '';
       $regist->id_line           = '';
       $regist->metode_pembayaran = 'Transfer';
-      $regist->registered_by     = 0;
+      $regist->registered_by     = NULL;
       $regist->save();
 
       return View::make('page.user.register-success');

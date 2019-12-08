@@ -24,7 +24,7 @@ class CreateRegistrationsTable extends Migration
             $table->string('no_wa');
             $table->string('id_line');
             $table->string('metode_pembayaran');
-            $table->integer('registered_by')->unsigned();
+            $table->integer('registered_by')->nullable()->unsigned();
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('kpgts2020_users')->onDelete('cascade');

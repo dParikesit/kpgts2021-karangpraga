@@ -1,7 +1,7 @@
 <?php
 
-//Route::get ('/register', 'UserController@create');
-//Route::post('/register', 'UserController@store' );
+Route::get ('/register', 'UserController@create');
+Route::post('/register', 'UserController@store' );
 Route::get ('/login'   , 'UserController@login' );
 Route::post('/login'   , 'UserController@auth'  );
 Route::get ('/logout'  , 'UserController@logout');
