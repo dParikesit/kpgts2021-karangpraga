@@ -38,9 +38,9 @@
               </div>
             </div>
             <div class="field">
-              <label class="label">Post Slig</label>
+              <label class="label">Post Slug</label>
               <div class="control">
-                <input class="input" type="text" name="post-slug" placeholder="berita-baru">
+                <input class="input" type="text" id="post-slug" name="post-slug" placeholder="berita-baru">
               </div>
               <p class="help">Permalink: https://kpgts2020.com/berita/<span id="post-slug-update"></span></p>
             </div>
