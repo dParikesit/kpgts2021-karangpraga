@@ -34,7 +34,7 @@
               <div class="columns is-multiline">
                 <div class="column is-4"> <strong> Roadshow </strong> </div>
                 <div class="column is-8">
-                  <strong> Gian Vere Adonis (MG 18) </strong>
+                  <strong> Gian Vere Adonis (MG 18) </strong> <br>
                   Michael Bertrand (FITB 19) <br/>
                   Dina Syarafina Aribah (SBM 19) <br/>
                   Azis Arbi Kurniawan (FTSL 19) <br/>
@@ -43,9 +43,10 @@
                 </div>
                 <div class="column is-4"> <strong> TONAMPTN </strong> </div>
                 <div class="column is-8">
-                  <strong> Nanda Yulanda (TK 18) </strong>
+                  <strong> Nanda Yulanda (TK 18) </strong> <br>
                   Allandra Dewantara (FTI 19) <br>
-                  Rahma Zanafia (FTI 19)
+                  Rahma Zanafia (FTI 19) <br>
+                  Bima Satriatama (MG 18)
                 </div>
               </div>
 
@@ -106,8 +107,8 @@
                 <div class="column is-4"> <strong> Sponsorship </strong> </div>
                 <div class="column is-8">
                   <strong> Fadhillah Hidayat (AR 18) </strong> <br>
-                  Dafakhrizal (SBM 19)
-                  Dwianditya Hanif (STEI 19)
+                  Dafakhrizal (SBM 19) <br>
+                  Dwianditya Hanif (STEI 19) <br>
                   Muhammad Daffa (FTTM 19)
                 </div>
                 <div class="column is-4"> <strong> Dana Usaha </strong> </div>
@@ -122,8 +123,8 @@
                 <div class="column is-4"> <strong> Dokumentasi </strong> </div>
                 <div class="column is-8">
                   <strong> Aulia Azizah (FKK 18) </strong> <br>
-                  Johanes (19) <br>
-                  Anggid Primastiti (19)
+                  Johanes (FTTM 19) <br>
+                  Anggid Primastiti (FTSL 19)
                 </div>
                 <div class="column is-4"> <strong> IT </strong> </div>
                 <div class="column is-8">

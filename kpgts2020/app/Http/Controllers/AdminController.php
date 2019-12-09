@@ -175,11 +175,9 @@ class AdminController extends Controller
                       }
         )->count();
         $gscript_url = [
-          'https://script.google.com/macros/s/AKfycbxmMdrtM-pwAsYkAeUEQ4ZVirDydqJCQnhBRY4yhzZlNyUIiX0/exec',
-          'https://script.google.com/macros/s/AKfycbzsSzyoahQyuQATRhxjPd92mpfIFrBKM8NA8HyOTaeoqXzKCoM0/exec',
-          'https://script.google.com/macros/s/AKfycbyGJuUXQEOlWaYR7dljdqWl0xjGdHRtxG6pU0IZM7eSOVJW6-CD/exec',
+          'https://script.google.com/macros/s/14KxXZROAsoQmo9fKgB6u_1CN2oUi3BCHLw_0qv-SaoJaQJLuKGaEEDf5/exec',
         ];
-        $ch = curl_init($gscript_url[$count%3]);
+        $ch = curl_init($gscript_url[0]);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         curl_setopt($ch, CURLOPT_HEADER, false);

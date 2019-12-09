@@ -46,7 +46,7 @@
                   <i class="fa fa-envelope"></i>
                 </span>
                 <input class="input" type="email" name="email" placeholder="Email">
-                <p class="help"> Gunakan email yang aktif karena kartu peserta akan dikirim ke email </p>
+                <p class="help"> Gunakan email yang aktif karena kartu peserta dan kode ujian akan dikirim ke email </p>
               </div>
             </div>
 

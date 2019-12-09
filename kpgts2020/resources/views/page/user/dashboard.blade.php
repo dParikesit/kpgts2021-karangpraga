@@ -44,7 +44,7 @@
             <p> Peserta yang tidak melakukan daftar ulang pada rentang waktu tersebut dianggap <strong class="underline">mengundurkan diri</strong>. </p>
 
             <p> Apabila ada pertanyaan-pertanyaan lebih lanjut mengenai Tryout, silakan tanyakan melalui: </p>
-                1.&nbsp;<strong><a href="LINK_LINE_SQUARE_DIGANTI_YAA" target="_blank">Line Square Ca-ITB 2020</a></strong>&nbsp;chatroom &quot;TONAMPTN&quot;<br/>
+                1.&nbsp;<strong><a href="/kontak" target="_blank">Contact Person Panitia KPGTS 2020</a></strong><br/>
                 2.&nbsp;<strong><a href="https://lin.ee/ewVA4on">Line&nbsp;Official Account KPGTS 2020</a></strong></p>
           @else 
             <p> Status anda <strong>BELUM terverifikasi</strong>. </p>
@@ -56,7 +56,7 @@
               <p> No. Rek BNI: <strong>0393722121</strong> a/n. <strong>Adhi Satriyatama</strong> </p>
               <p> No. Rek BCA: <strong>0091756837</strong> a/n. <strong>Yudith Pratama Ibrahim</strong> </p>
               <p> Gopay: <strong>081225951826</strong> a/n. <strong>Ardhya Garini</strong> </p>
-              <p> Pastikan Anda mengirim sampai 3 digit terakhir </p>
+              <p> Pastikan Anda mengirim sampai <strong>3 digit terakhir</strong> </p>
             @else
               <p> Biaya pendaftaran: <strong>Rp. {{ floor($biaya/1000) }}.{{ sprintf("%03d",$biaya%1000) }},00</strong> </p>
               <p> PJ sekolah untuk {{ $user->registration->sma }}: {!! $pj[$user->registration->sma] !!} </p>
