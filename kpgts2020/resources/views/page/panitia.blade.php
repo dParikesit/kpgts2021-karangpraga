@@ -30,18 +30,23 @@
               <h2> Ketua </h2>
               <h4> <strong> Teresa Amalia (GD 18) </strong> </h4>
 
-              <h2> Roadshow </h2>
-              <h4> <strong> Gian Vere Adonis (MG 18) </strong> </h4>
+              <h2> Acara </h2>
               <div class="columns is-multiline">
-                  NAMA_BOCAHE_VERE_DIGANTI_YAA <br/>
-                  NAMA_BOCAHE_VERE_DIGANTI_YAA
-              </div>
-
-              <h2> TONAMPTN </h2>
-              <h4> <strong> Nanda Yulanda (TK 18) </strong></h4>
-              <div class="columns is-multiline">
-                  NAMA_BOCAHE_NANDO_DIGANTI_YAA <br/>
-                  NAMA_BOCAHE_NANDO_DIGANTI_YAA
+                <div class="column is-4"> <strong> Roadshow </strong> </div>
+                <div class="column is-8">
+                  <strong> Gian Vere Adonis (MG 18) </strong>
+                  Michael Bertrand (FITB 19) <br/>
+                  Dina Syarafina Aribah (SBM 19) <br/>
+                  Azis Arbi Kurniawan (FTSL 19) <br/>
+                  Novia Pramesthi (SF 19) <br/>
+                  Masulana Hayu Jarwadi (FTMD 19)
+                </div>
+                <div class="column is-4"> <strong> TONAMPTN </strong> </div>
+                <div class="column is-8">
+                  <strong> Nanda Yulanda (TK 18) </strong>
+                  Allandra Dewantara (FTI 19) <br>
+                  Rahma Zanafia (FTI 19)
+                </div>
               </div>
 
               <h2> Lapangan </h2>
@@ -50,17 +55,18 @@
                 <div class="column is-4"> <strong> Registrasi </strong> </div>
                 <div class="column is-8">
                   <strong> Adhi Satriyatama (TK 18) </strong> </br>
-                  NAMA_BOCAHE_ADHI_DIGANTI_YAA
+                  Yudith Pratama I (FTTM 19) <br>
+                  Ardhya Garini (FMIPA 19)
                 </div>
                 <div class="column is-4"> <strong> Logistik </strong> </div>
                 <div class="column is-8">
-                  <strong> Dismas W (EL 18) </strong> </br>
-                  NAMA_BOCAHE_DISMAS_DIGANTI_YAA
+                  <strong> Dismas Widyanto (EL 18) </strong> </br>
+                  Aditya Kusuma Aji (FTI 19) <br>
+                  Bevan Harsetya Adyatama (FTSL 19)
                 </div>
                 <div class="column is-4"> <strong> Konsumsi </strong> </div>
                 <div class="column is-8">
                   <strong> Dewi Mawaddatus S (TK 18) </strong> <br>
-                  DIGANTI_YAA
                 </div>
               </div>
 
@@ -70,12 +76,14 @@
                 <div class="column is-4"> <strong> Perizinan </strong> </div>
                 <div class="column is-8">
                   <strong> Faiz Hasan (TL 18) </strong> </br>
-                  NAMA_BOCAHE_FAIZ_DIGANTI_YAA
+                  Fairuz Zahira H (FTTM 19) <br>
+                  Ilham Rahadian W (FTSL 19)
                 </div>
                 <div class="column is-4"> <strong> Publikasi </strong> </div>
                 <div class="column is-8">
                   <strong> Qorry Aina (KU 18) </strong> </br>
-                  NAMA_BOCAHE_QORRY_DIGANTI_YAA
+                  Dimas Prayoga T (FTTM 19) <br>
+                  Muhammad Bintang Fadhiil (FTTM 19)
                 </div>
               </div>
 
@@ -84,13 +92,11 @@
               <div class="columns is-multiline">
                 <div class="column is-4"> <strong> Relasi Panitia </strong> </div>
                 <div class="column is-8">
-                  <strong> Andjani Widya (EB 18) </strong> <br>
-                  DIGANTI_YAA
+                  <strong> Andjani Widya (EB 18) </strong>
                 </div>
                 <div class="column is-4"> <strong> Pengarsipan </strong> </div>
                 <div class="column is-8">
-                  <strong> Labitta Qonitah (AR 18) </strong> <br>
-                  DIGANTI_YAA
+                  <strong> Labitta Qonitah (AR 18) </strong>
                 </div>
               </div>
 
@@ -100,12 +106,13 @@
                 <div class="column is-4"> <strong> Sponsorship </strong> </div>
                 <div class="column is-8">
                   <strong> Fadhillah Hidayat (AR 18) </strong> <br>
-                  DIGANTI_YAA
+                  Dafakhrizal (SBM 19)
+                  Dwianditya Hanif (STEI 19)
+                  Muhammad Daffa (FTTM 19)
                 </div>
                 <div class="column is-4"> <strong> Dana Usaha </strong> </div>
                 <div class="column is-8">
-                  <strong> Michelle Theresia (IF 18) </strong> <br>
-                  DIGANTI_YAA
+                  <strong> Michelle Theresia (IF 18) </strong>
                 </div>
               </div>
 
@@ -115,8 +122,8 @@
                 <div class="column is-4"> <strong> Dokumentasi </strong> </div>
                 <div class="column is-8">
                   <strong> Aulia Azizah (FKK 18) </strong> <br>
-                  Johanes <br>
-                  Anggid Primastiti
+                  Johanes (19) <br>
+                  Anggid Primastiti (19)
                 </div>
                 <div class="column is-4"> <strong> IT </strong> </div>
                 <div class="column is-8">
@@ -132,7 +139,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
