@@ -17,7 +17,7 @@
               <span> {{ trans('menu.news') }} </span>
             </a>
             @if (Auth::check())
-            @if (Auth::user()->type->isAdmin())
+            @if (Auth::user()->isAdmin())
             <a class="navbar-item" href="/admin/dashboard">
               <span> Dashboard </span>
             </a>
@@ -25,7 +25,7 @@
               <span> Logout </span>
             </a>
             @endif
-            @if (Auth::user()->type == 'user')
+            @if (!Auth::user()->isAdmin())
             <a class="navbar-item" href="/user/dashboard">
               <span> Dashboard </span>
             </a>
