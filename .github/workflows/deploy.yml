@@ -16,4 +16,4 @@ jobs:
         HOST: ${{ secrets.HOST }}
         USER: ${{ secrets.USER }}
       with:
-        args: "/home/joegun/kpgts2020-karangpraga/deploy.sh"
+        args: "/home/joegun/deploy.sh"
