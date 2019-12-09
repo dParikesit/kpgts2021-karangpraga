@@ -44,13 +44,16 @@ class User extends Authenticatable
 
     public function canRegistUser()
     {
-        return
-            $this->id == 1   || // yonas
-            $this->id == 8   || // jojo
-            $this->id == 25  || // tere
-            $this->id == 168 || // wiwid
-            $this->id == 575 || // fachtur
-            $this->id == 773 || // adhi
-            $this->id == 777;   // nando
+        return $this->isSuperAdmin();
+    }
+
+    public function isSuperAdmin()
+    {
+        return $this->type == 'superadmin';
+    }
+
+    public function isAdmin()
+    {
+        return $this->type == 'admin' || $this->type == 'superadmin';
     }
 }

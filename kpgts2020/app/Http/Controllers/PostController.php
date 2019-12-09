@@ -38,7 +38,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        if (Auth::id() != 1) {
+        if (!Auth::user()->isSuperAdmin()) {
             return View::make('page.admin.post_invalid');
         }
         return View::make('page.admin.post_create', compact([]));

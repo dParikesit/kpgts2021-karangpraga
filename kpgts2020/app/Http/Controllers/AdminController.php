@@ -234,7 +234,7 @@ class AdminController extends Controller
 
       if (Auth::attempt(['email' => $old['email'], 'password' => $old['password']])) {
         $user = Auth::user();
-        if ($user->type == 'admin') {
+        if ($user->isAdmin()) {
           return redirect('/admin/dashboard');
         } else if ($user->type == 'user') {
           Auth::logout();

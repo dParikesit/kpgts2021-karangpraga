@@ -38,6 +38,13 @@
               </div>
             </div>
             <div class="field">
+              <label class="label">Post Slig</label>
+              <div class="control">
+                <input class="input" type="text" name="post-slug" placeholder="berita-baru">
+              </div>
+              <p class="help">Permalink: https://kpgts2020.com/berita/<span id="post-slug-update"></span></p>
+            </div>
+            <div class="field">
               <label class="label">Post Description</label>
               <div class="control">
                 <textarea class="textarea" placeholder="Deskripsi singkat mengenai berita" name="post-desc"></textarea>
