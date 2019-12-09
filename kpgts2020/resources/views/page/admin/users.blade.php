@@ -49,9 +49,10 @@
                 <a class="toggle-vis" data-column="2">Nama</a> -
                 <a class="toggle-vis" data-column="3">Asal SMA</a> -
                 <a class="toggle-vis" data-column="4">Pembayaran</a> -
-                <a class="toggle-vis" data-column="6">Mendaftar pada</a> -
-                <a class="toggle-vis" data-column="7">Diverifikasi oleh</a> -
-                <a class="toggle-vis" data-column="8">Diverifikasi pada</a>
+                <a class="toggle-vis" data-column="5">Mendaftar pada</a> -
+                <a class="toggle-vis" data-column="6">Diverifikasi oleh</a> -
+                <a class="toggle-vis" data-column="7">Diverifikasi pada</a> -
+                <a class="toggle-vis" data-column="8">Verifikasi</a>
               </p>
               <h6> Filter Column</h6>
               <p id="filter-1"> Diverifikasi :
