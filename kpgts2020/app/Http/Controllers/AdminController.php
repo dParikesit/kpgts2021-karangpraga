@@ -93,7 +93,7 @@ class AdminController extends Controller
         $regist->nomor_peserta     = '';
         $regist->sma               = $request->input('asal-sma')?:'';
         $regist->kelompok_ujian    = $request->input('kelompok-ujian')?:'';
-        $regist->biaya             = 35000;
+        $regist->biaya             = 0;
         $regist->no_hp             = $request->input('no-hp')?:'';
         $regist->no_wa             = $request->input('no-wa')?:'';
         $regist->id_line           = $request->input('id-line')?:'';
@@ -139,7 +139,7 @@ class AdminController extends Controller
         $user->registration->no_hp             = $request->input('no-hp')?:'';
         $user->registration->no_wa             = $request->input('no-wa')?:'';
         $user->registration->id_line           = $request->input('id-line')?:'';
-        $user->registration->biaya             = 35000;
+        $user->registration->biaya             = $request->input('kelompok-ujian')=='Campuran'?50000:45000;
         $user->registration->save();
         $user->save();
 
