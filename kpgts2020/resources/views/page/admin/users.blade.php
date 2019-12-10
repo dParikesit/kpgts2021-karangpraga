@@ -66,26 +66,10 @@
               <p id="filter-4"> Pembayaran : </p>
               <p id="filter-7"> Diverifikasi oleh : </p>
               <p id="filter-9"> Peserta Terverifikasi :
-              Saintek {{User::where('type', 'user')
-                      ->whereHas('registration', function($query) {
-                        $query->where('nomor_peserta', '<>', '')->where('kelompok_ujian', 'Saintek');
-              })->count();
-              }},
-              Soshum {{User::where('type', 'user')
-                      ->whereHas('registration', function($query) {
-                        $query->where('nomor_peserta', '<>', '')->where('kelompok_ujian', 'Soshum');
-              })->count();
-              }},
-              Campuran {{User::where('type', 'user')
-                      ->whereHas('registration', function($query) {
-                        $query->where('nomor_peserta', '<>', '')->where('kelompok_ujian', 'Campuran');
-              })->count();
-              }},
-              Total {{User::where('type', 'user')
-                      ->whereHas('registration', function($query) {
-                        $query->where('nomor_peserta', '<>', '');
-              })->count();
-              }}</p>
+              Saintek _,
+              Soshum _,
+              Campuran _,
+              Total _</p>
             </div>
           </div>
           <!-- pacman loader -->
@@ -187,7 +171,7 @@
       })
  
       table.columns().flatten().each( function ( colIdx ) {
-        if ([0, 1, 2, 6, 8, 9].indexOf(colIdx) !== -1) return;
+        if ([0, 1, 2, 6, 8].indexOf(colIdx) !== -1) return;
         // Create the select list and search operation
         var select = $('<select />')
           .appendTo(
