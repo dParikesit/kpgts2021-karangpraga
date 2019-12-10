@@ -40,7 +40,7 @@
             @endif
           </div>
           <div class="box">
-            <h5 onclick="tooglefeature()" style="cursor: pointer"> Fitur Baru!! \(^o^)/ Klik disini! </h5>
+            <h5 onclick="tooglefeature()" style="cursor: pointer"> \(^o^)/ Klik disini! \(^o^)/ </h5>
             <div id="feature" style="display: none">
               <h6> Toogle Column </h6>
               <p>
@@ -53,8 +53,9 @@
                 <a class="toggle-vis" data-column="6">Diverifikasi oleh</a> -
                 <a class="toggle-vis" data-column="7">Diverifikasi pada</a> -
                 <a class="toggle-vis" data-column="8">Verifikasi</a>
+                <a class="toggle-vis" data-column="9">Kelompok Ujian</a>
               </p>
-              <h6> Filter Column</h6>
+              <h6> Filter Column </h6>
               <p id="filter-1"> Diverifikasi :
                 <select id="select-verified">
                   <option value=""></option>
@@ -65,6 +66,7 @@
               <p id="filter-3"> Asal SMA : </p>
               <p id="filter-4"> Pembayaran : </p>
               <p id="filter-7"> Diverifikasi oleh : </p>
+              <p id="filter-9"> Kelompok Ujian : </p>
             </div>
           </div>
           <!-- pacman loader -->
@@ -95,6 +97,7 @@
                 <th> Diverif </th>
                 <th> Verif </th>
                 <th> Aksi </th>
+                <th> Kelompok Ujian </th>
               </tr>
             </thead>
             <tbody>
@@ -108,6 +111,7 @@
                 <td> {{ $user->registration->created_at }} </td>
                 <td> {{ ($user->registration->nomor_peserta)?$user->registration->registered->name : '' }} </td>
                 <td> {{ ($user->registration->nomor_peserta)?$user->registration->updated_at : '' }} </td>
+                <td> {{ $user->registration->kelomok_ujian }} </td>
                 <td>
                   <a href="/admin/user/{{ $user->id }}"> <span class="tag"><i class="fa fa-search"></i></span> </a>
                   @if ($user->registration->nomor_peserta == '')
@@ -149,7 +153,7 @@
         "scrollCollapse" : true,
         "columnDefs" : [
           {
-            "targets" : [3, 5, 6, 7, 8],
+            "targets" : [0, 3, 6, 7],
             "visible" : false,
           },
         ],
