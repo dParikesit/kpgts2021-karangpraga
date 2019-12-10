@@ -23,7 +23,7 @@
             </div>
             <div class="column is-12" >
               <div class="content">
-                <table>
+                <table style="overflow-x:auto;">
                   <tr>
                     <th> Sekolah </th>
                     <th> Tanggal </th>

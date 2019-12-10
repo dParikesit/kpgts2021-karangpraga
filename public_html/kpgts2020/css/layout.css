@@ -92,6 +92,11 @@ a.navbar-item:hover span {
   color: #f3dcb2;
 }
 
+.main .navbar-burger span {
+  height: 2px;
+  color: #442b22;
+}
+
 .footer {
   background-color: #442b22;
 }
