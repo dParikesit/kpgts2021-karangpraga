@@ -1,4 +1,4 @@
-# Gamakta Karangpraga
+# KPGTS2020 Karangpraga
 
 ## Setup and Install
 
@@ -16,3 +16,7 @@
 1. `cp .env.example .env`
 1. `php artisan key:generate`
 1. `php artisan migrate`
+
+Lengkapnya klik di [sini](https://docs.google.com/document/d/1hXBgrkTfMA9TtdKIDRkPJEoVy08ClrnKnk4JQw9FIxE/edit?usp=sharing)
+
+Jika masih bingung silakan tanya langsung aja ke akun github ini
