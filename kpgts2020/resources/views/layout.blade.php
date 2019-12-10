@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://kpgts2020.com/img/logo.png" />
     <meta property="og:title" content="@yield('title')"/>
     <meta property="og:description" content="@yield('description')"/>
-    <meta property="og:url" content="https://kpgts2020.com@yield('url')" />
+    <meta property="og:url" content="{{ 'https://kpgts2020.com' }}@yield('url')" />
 
     <title>@yield('title') | KPGTS 2020</title>
 
