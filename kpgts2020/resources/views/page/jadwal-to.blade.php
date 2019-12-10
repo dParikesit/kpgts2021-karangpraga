@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.schedule_to') }} @endsection
+@section('title', trans('menu.schedule_to'))
+@section('description', 'Jadwal pelaksanaan TONAMPTN 2020 di Semarang')
+@section('url', '/jadwal-to')
 
 @section('before-styles')
 @endsection

@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') Berita @endsection
+@section('title', 'Berita')
+@section('description', 'Daftar berita KPGTS 2020')
+@section('url', '/berita')
 
 @section('before-styles')
 @endsection

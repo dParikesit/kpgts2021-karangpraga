@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/img/logo.ico">
+    <meta name="theme-color" content="#442b22" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="KPGTS 2020" />
+    <meta property="og:image" content="https://kpgts2020.com/img/logo.png" />
+    <meta property="og:title" content="KPGTS 2020"/>
+    <meta property="og:description" content="Karang Praga Goes To School 2020, acara paguyubuan mahasiswa ITB yang berasal dari Semarang untuk berbagi mengenai kehidupan perkuliahan dan membantu latihan UTBK bagi mahasiswa kelas XII di Semarang dan sekitarnya"/>
+    <meta property="og:url" content="https://kpgts2020.com/" />
 
     <title>KPGTS 2020</title>
 
@@ -251,6 +260,16 @@
     animate1('.cloud-1');
     animate1('.cloud-2');
     animate1('.cloud-3');
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141178655-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-141178655-3');
   </script>
 
 </html>

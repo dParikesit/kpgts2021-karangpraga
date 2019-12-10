@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.schedule_school') }} @endsection
+@section('title', trans('menu.schedule_school'))
+@section('description', 'Jadwal dari sekolah yang dikunjungi KPGTS! Nantikan kami di sekolahmu!')
+@section('url', '/roadshow-sekolah')
 
 @section('before-styles')
 @endsection

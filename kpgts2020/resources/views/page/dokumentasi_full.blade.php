@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.documentation') }} @endsection
+@section('title', trans('menu.documentation'))
+@section('description', 'Dokumentasi Roadshow KPGTS yang sudah berlalu')
+@section('url', '/dokumentasi)
 
 @section('before-styles')
 @endsection

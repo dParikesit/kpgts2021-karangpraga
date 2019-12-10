@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.payment') }} @endsection
+@section('title', trans('menu.payment'))
+@section('description', 'Cara melakukan pembayaran untuk TONAMPTN 2020')
+@section('url', '/pembayaran')
 
 @section('before-styles')
 @endsection

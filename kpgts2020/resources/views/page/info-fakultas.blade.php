@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') Info Fakultas @endsection
+@section('title', 'Info Fakultas')
+@section('description', 'Informasi mengenai Fakultas dan Sekolah yang ada di ITB')
+@section('url', '/info-fakultas')
 
 @section('before-styles')
 
