@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') Panitia @endsection
+@section('title')Panitia@endsection
+@section('description')Daftar dan susunan panitia yang bertugas di KPGTS 2020@endsection
+@section('url')/panitia@endsection
 
 @section('before-styles')
 @endsection

@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.payment') }} @endsection
+@section('title'){{ trans('menu.payment') }}@endsection
+@section('description')Cara melakukan pembayaran untuk TONAMPTN 2020@endsection
+@section('url')/pembayaran@endsection
 
 @section('before-styles')
 @endsection

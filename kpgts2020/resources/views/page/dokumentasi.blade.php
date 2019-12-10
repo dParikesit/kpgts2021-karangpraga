@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.documentation') }} @endsection
+@section('title')KPGTS 2020 di {{ $sma_long }}@endsection
+@section('description')Dokumentasi Roadshow KPGTS di {{ $sma_long }}@endsection
+@section('url')/dokumentasi@endsection
 
 @section('before-styles')
 @endsection

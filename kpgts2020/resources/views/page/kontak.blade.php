@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') Kontak @endsection
+@section('title')Kontak@endsection
+@section('description')Kontak yang dapat dihubungi bila ingin bertanya lebih lanjut@endsection
+@section('url')/kontak@endsection
 
 @section('before-styles')
 @endsection

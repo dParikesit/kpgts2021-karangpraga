@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.documentation') }} @endsection
+@section('title'){{ trans('menu.documentation') }}@endsection
+@section('description')Dokumentasi Roadshow KPGTS yang sudah berlalu@endsection
+@section('url')/dokumentasi@endsection
 
 @section('before-styles')
 @endsection

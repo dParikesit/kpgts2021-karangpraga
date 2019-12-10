@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title') {{ trans('menu.gallery') }} @endsection
+@section('title'){{ trans('menu.gallery') }}@endsection
+@section('description')Galeri foto KPGTS yang sudah berlalu@endsection
+@section('url')/galeri@endsection
 
 @section('before-styles')
 @endsection
