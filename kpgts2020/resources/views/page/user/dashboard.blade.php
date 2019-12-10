@@ -62,7 +62,7 @@
               <p> PJ sekolah untuk {{ $user->registration->sma }}: {!! $pj[$user->registration->sma] !!} </p>
             @endif
             <p> Harap diperhatikan bahwa setelah pembayaran kami terima, email verifikasi dan Kartu Peserta akan dikirimkan ke <strong>{{ $user->email }}</strong> maksimal <strong>3 hari kerja</strong>. </p>
-            <p> Apabila ada pertanyaan lebih lanjut, silakan langsung tanyakan melalui <strong><a href="LINK_LINE_SQUARE_DIGANTI_YAA">Line Square Ca-ITB Semarang 2020</a></strong> pada chatroom “Tryout”, atau hubungi <strong><a href="/kontak">Official Account KPGTS 2020</a></strong> </p>
+            <p> Apabila ada pertanyaan lebih lanjut, silakan langsung tanyakan melalui <strong><a href="https://line.me/ti/g2/swALBY9YsweEltKo80C4Xw">Line Square Ca-ITB Semarang 2020</a></strong> pada chatroom “Tryout”, atau hubungi <strong><a href="/kontak">Official Account KPGTS 2020</a></strong> </p>
           @endif
         </div>
       </div>

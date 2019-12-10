@@ -86,16 +86,26 @@ class UserController extends Controller
         $biaya += $user->registration->id;
       }
       $pj = [
-        "SMAN 1 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "SMAN 2 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "SMAN 3 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "SMAN 4 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "SMAN 5 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "SMAN 12 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA)",
-        "SMAN 1 Ungaran" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "SMA Semesta" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA), <strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "SMA Karangturi" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
-        "Kolese Loyola" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        "SMAN 1 Semarang" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "SMAN 2 Semarang" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "SMAN 3 Semarang" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "SMAN 4 Semarang" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "SMAN 5 Semarang" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "SMAN 12 Semarang" => "<strong>Belum ada PJ</strong> (line: -)",
+        "SMAN 1 Ungaran" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "SMA Semesta" => "<strong>Belum ada PJ</strong> (line: -, -), <strong>Belum ada PJ</strong> (line: -, -)",
+        "SMA Karangturi" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "Kolese Loyola" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        // "SMAN 1 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "SMAN 2 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "SMAN 3 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "SMAN 4 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "SMAN 5 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "SMAN 12 Semarang" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA)",
+        // "SMAN 1 Ungaran" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "SMA Semesta" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA), <strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "SMA Karangturi" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
+        // "Kolese Loyola" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
       ];
       return View::make('page.user.dashboard', compact(['biaya', 'pj', 'user']));
     }
