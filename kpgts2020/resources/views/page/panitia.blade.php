@@ -129,13 +129,13 @@
                 <div class="column is-4"> <strong> IT </strong> </div>
                 <div class="column is-8">
                   <strong> Jonathan Yudi Gunawan (IF 18) </strong> <br>
-                  Widya Anugrah P (STEI 18) <br>
-                  M Fatchur Rochman (STEI 18)
+                  Widya Anugrah P (STEI 19) <br>
+                  M Fatchur Rochman (STEI 19)
                 </div>
                 <div class="column is-4"> <strong> Desain </strong> </div>
                 <div class="column is-8">
                   <strong> Azalea Ardra (DKV 18) </strong> <br>
-                  Qanisha (FSRD 18)
+                  Qanisha (FSRD 19)
                 </div>
               </div>
             </div>
