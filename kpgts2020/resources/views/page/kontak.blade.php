@@ -25,6 +25,7 @@
               <h5> Contact Person: </h5>
               <p> Adhi Satriyatama (085785490091, LINE: adhist08) </p>
               <p> Teresa Amalia (082226250334, LINE: tereamap) </p>
+              <p> Jonathan Yudi (089522509060, LINE: jonathan1506) </p>
             </div>
             <div class="column is-12">
               <h5> Social Media </h5>

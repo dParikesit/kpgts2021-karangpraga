@@ -50,7 +50,7 @@
           </div>
           <div class="field">
             <p class="control">
-              <small> Kontak Yonas Adiel kalau lupa password.</small>
+              <small> Kontak Jonathan Yudi kalau lupa password.</small>
             </p>
           </div>
           </form>
