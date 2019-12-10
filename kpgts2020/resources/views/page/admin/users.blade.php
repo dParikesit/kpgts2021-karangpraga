@@ -67,21 +67,18 @@
               <p id="filter-7"> Diverifikasi oleh : </p>
               <p id="filter-9"> Peserta Terverifikasi :
               Saintek {{User::where('type', 'user')
-                      ->where('kelompok_ujian', 'Saintek')
                       ->whereHas('registration', function($query) {
-                        $query->where('nomor_peserta', '<>', '');
+                        $query->where('nomor_peserta', '<>', '')->where('kelompok_ujian', 'Saintek');
               })->count();
               }},
               Soshum {{User::where('type', 'user')
-                      ->where('kelompok_ujian', 'Soshum')
                       ->whereHas('registration', function($query) {
-                        $query->where('nomor_peserta', '<>', '');
+                        $query->where('nomor_peserta', '<>', '')->where('kelompok_ujian', 'Soshum');
               })->count();
               }},
               Campuran {{User::where('type', 'user')
-                      ->where('kelompok_ujian', 'Campuran')
                       ->whereHas('registration', function($query) {
-                        $query->where('nomor_peserta', '<>', '');
+                        $query->where('nomor_peserta', '<>', '')->where('kelompok_ujian', 'Campuran');
               })->count();
               }},
               Total {{User::where('type', 'user')
