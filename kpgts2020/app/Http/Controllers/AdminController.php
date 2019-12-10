@@ -175,7 +175,7 @@ class AdminController extends Controller
                       }
         )->count();
         $gscript_url = [
-          'https://script.google.com/macros/s/AKfycbz_nizteYbDLGo71FpEMFJcEMiJ1qsWhGs2pM2r-iKtynmRiJHM/exec'
+          'https://script.google.com/macros/s/AKfycbyKckxTxRTXPF_wfaTk3Xy6p5rhBLpyeiu2dFdjK2vwdQC8DMrn/exec'
         ];
         $ch = curl_init($gscript_url[0]);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
