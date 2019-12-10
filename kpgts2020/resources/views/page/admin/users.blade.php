@@ -53,7 +53,6 @@
                 <a class="toggle-vis" data-column="6">Diverifikasi oleh</a> -
                 <a class="toggle-vis" data-column="7">Diverifikasi pada</a> -
                 <a class="toggle-vis" data-column="8">Verifikasi</a>
-                <a class="toggle-vis" data-column="9">Kelompok Ujian</a>
               </p>
               <h6> Filter Column </h6>
               <p id="filter-1"> Diverifikasi :
@@ -66,7 +65,30 @@
               <p id="filter-3"> Asal SMA : </p>
               <p id="filter-4"> Pembayaran : </p>
               <p id="filter-7"> Diverifikasi oleh : </p>
-              <p id="filter-9"> Kelompok Ujian : </p>
+              <p id="filter-9"> Peserta Terverifikasi :
+              Saintek {{User::where('type', 'user')
+                      ->where('kelompok_ujian', 'Saintek')
+                      ->whereHas('registration', function($query) {
+                        $query->where('nomor_peserta', '<>', '');
+              })->count();
+              }},
+              Soshum {{User::where('type', 'user')
+                      ->where('kelompok_ujian', 'Soshum')
+                      ->whereHas('registration', function($query) {
+                        $query->where('nomor_peserta', '<>', '');
+              })->count();
+              }},
+              Campuran {{User::where('type', 'user')
+                      ->where('kelompok_ujian', 'Campuran')
+                      ->whereHas('registration', function($query) {
+                        $query->where('nomor_peserta', '<>', '');
+              })->count();
+              }},
+              Total {{User::where('type', 'user')
+                      ->whereHas('registration', function($query) {
+                        $query->where('nomor_peserta', '<>', '');
+              })->count();
+              }}</p>
             </div>
           </div>
           <!-- pacman loader -->
@@ -97,7 +119,6 @@
                 <th> Diverif </th>
                 <th> Verif </th>
                 <th> Aksi </th>
-                <th> Kelompok Ujian </th>
               </tr>
             </thead>
             <tbody>
@@ -111,7 +132,6 @@
                 <td> {{ $user->registration->created_at }} </td>
                 <td> {{ ($user->registration->nomor_peserta)?$user->registration->registered->name : '' }} </td>
                 <td> {{ ($user->registration->nomor_peserta)?$user->registration->updated_at : '' }} </td>
-                <td> {{ $user->registration->kelomok_ujian }} </td>
                 <td>
                   <a href="/admin/user/{{ $user->id }}"> <span class="tag"><i class="fa fa-search"></i></span> </a>
                   @if ($user->registration->nomor_peserta == '')
