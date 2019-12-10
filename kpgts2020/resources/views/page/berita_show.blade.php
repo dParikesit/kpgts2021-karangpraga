@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title'){{ $post->post_title }}@endsection
-@section('description'){{ $post->desc }}@endsection
-@section('url')/berita/{{ $post->slug }}@endsection
+@section('title', $post->post_title)
+@section('description', $post->desc)
+@section('url', '/berita/{{ $post->slug }}')
 
 @section('before-styles')
 
