@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title'){{ trans('menu.karangpraga') }}@endsection
-@section('description')Penjelasan mengenai Karang Praga, Keluarga Semarang Putra Ganesha, paguyuban mahasiswa ITB dari Semarang@endsection
-@section('url')/karang-praga@endsection
+@section('title', trans('menu.karangpraga'))
+@section('description', 'Penjelasan mengenai Karang Praga, Keluarga Semarang Putra Ganesha, paguyuban mahasiswa ITB dari Semarang')
+@section('url', '/karang-praga')
 
 @section('before-styles')
 @endsection
