@@ -31,7 +31,7 @@
             </div>
             <div class="column is-12">
               <h5> Social Media </h5>
-              <a targer="_blank" href="https://line.me/R/ti/p/%40iyn9473m" style="color: unset!important">
+              <a targer="_blank" href="https://lin.ee/ewVA4on" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
                     <p class="image is-64x64"> <img src="/img/icons/line.png"> </p>
