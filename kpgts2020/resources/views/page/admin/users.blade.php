@@ -68,7 +68,6 @@
               <p id="filter-9"> Peserta Terverifikasi :
               Saintek _,
               Soshum _,
-              Campuran _,
               Total _</p>
             </div>
           </div>

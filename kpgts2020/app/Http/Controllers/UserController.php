@@ -130,6 +130,14 @@ class UserController extends Controller
     public function showFAQ() {
       $faqs = [
         [
+          "question" => "Saya sudah membayar tapi belum diverifikasi",
+          "answer" => "Silakan menunggu maksimal 3 hari, pastikan transfer hingga 3 digit terakhir."
+        ],
+        [
+          "question" => "Saya sudah membayar dan sudah diverifikasi tapi belum mendapat email kartu peserta",
+          "answer" => "Pastikan email yang anda daftarkan benar, cek juga bagian email bagian spam. Bila masih ada kendala, silakan kontak salah satu CP yang ada di Dashboard."
+        ],
+        [
           "question" => "Saya tidak bisa download kartu peserta yang sudah dikirim ke email saya karena satu dan lain hal (contoh : lupa password email, email terhapus, dll)",
           "answer"   => "Silakan kontak salah satu CP yang ada di Dashboard."
         ],
@@ -160,10 +168,6 @@ class UserController extends Controller
         [
           "question" => "Setelah membayar melalui transfer / PJ Sekolah apa yang harus dilakukan?",
           "answer"   => "Silakan tunggu email verifikasi dari panitia maksimal 3 hari setelah pembayaran."
-        ],
-        [
-          "question" => "Jika sampai 3 hari setelah membayar, saya belum menerima email, bagaimana?",
-          "answer"   => "Silakan kontak salah satu CP yang ada di Dashboard."
         ],
       ];
       return View::make('page.user.faq', compact(['faqs']));

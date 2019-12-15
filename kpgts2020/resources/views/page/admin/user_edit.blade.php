@@ -57,12 +57,6 @@
                     @endif
                     value="Soshum"
                     >Soshum</option>
-                    <option
-                    @if ((isset($old['kelompok-ujian']) && $old['kelompok-ujian']=='Campuran') || $user->registration->kelompok_ujian=='Campuran')
-                    selected
-                    @endif
-                    value="Campuran"
-                    >Campuran</option>
                   </select>
                 </div>
               </div>

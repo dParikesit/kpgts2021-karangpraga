@@ -139,7 +139,7 @@ class AdminController extends Controller
         $user->registration->no_hp             = $request->input('no-hp')?:'';
         $user->registration->no_wa             = $request->input('no-wa')?:'';
         $user->registration->id_line           = $request->input('id-line')?:'';
-        $user->registration->biaya             = $request->input('kelompok-ujian')=='Campuran'?50000:45000;
+        $user->registration->biaya             = 45000;
         $user->registration->save();
         $user->save();
 
