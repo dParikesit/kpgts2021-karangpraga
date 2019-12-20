@@ -80,6 +80,7 @@ class RegistrationController extends Controller
             'SMA Semesta',
             'SMA Karangturi',
             'Kolese Loyola',
+            'SMAN 1 Kendal',
         ];
 
         return View::make('page.user.registration_edit', compact(['registration', 'smas']));

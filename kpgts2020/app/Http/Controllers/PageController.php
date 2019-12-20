@@ -93,7 +93,7 @@ class PageController extends Controller
         ["SMAN 1 Semarang", "smansa"],
         ["SMAN 1 Ungaran", "smansaungaran"],
         ["SMA Sedes Sapientiae", "sedes"],
-        ["KPGTS 2017", "2017"],
+        ["Gamakta 2017", "2017"],
       ];
       return View::make('page.dokumentasi_full', compact(['smas']));
     }

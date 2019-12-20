@@ -71,7 +71,8 @@ class AdminController extends Controller
             'SMAN 1 Ungaran',
             'SMA Semesta',
             'SMA Karangturi',
-            'Kolese Loyola'
+            'Kolese Loyola',
+            'SMAN 1 Kendal',
         ];
         return View::make('page.admin.user_create', compact(['smas']));
       } else {
@@ -121,6 +122,7 @@ class AdminController extends Controller
             'SMA Semesta',
             'SMA Karangturi',
             'Kolese Loyola',
+            'SMAN 1 Kendal',
         ];
         return View::make('page.admin.user_edit', compact(['user', 'smas']));
       } else {
