@@ -95,7 +95,7 @@ class UserController extends Controller
         "SMAN 1 Ungaran" => "<strong>Belum ada PJ</strong> (line: -, -)",
         "SMA Semesta" => "<strong>Belum ada PJ</strong> (line: -, -)",
         "SMA Karangturi" => "<strong>Belum ada PJ</strong> (line: -, -)",
-        "Kolese Loyola" => "<strong>Kristo Abdi Wiguna</strong> (line: -, -)",
+        "Kolese Loyola" => "<strong>Kristo Abdi Wiguna</strong> (line: kristoabdi, 081904840212)",
         "SMAN 1 Kendal" => "<strong>Fara</strong> (wa: 087735423287)"
         // "Nama_sekolah" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
       ];
