@@ -144,6 +144,29 @@
             <button class="button" type="button" onclick="window.location.href='/admin/user/{{ $user->id }}'"> <i class="fa fa-close"> </i>&nbsp; Cancel </a>
           </form>
 
+          <div class="field">
+              <label class="label">Sesi</label>
+              <div class="control">
+                <div class="select">
+                  <select id="sesi-select" name="sesi">
+                    <option
+                    @if ((isset($old['sesi']) && $old['sesi']=='1') || $user->registration->sesi=='1')
+                    selected
+                    @endif
+                    value="1"
+                    >1</option>
+                    <option
+                    @if ((isset($old['sesi']) && $old['sesi']=='2') || $user->registration->sesi=='2')
+                    selected
+                    @endif
+                    value="2"
+                    >2</option>
+                  </select>
+                </div>
+              </div>
+              <small> * Jangan lupa kirim ulang email Kartu Peserta jika mengubah sesi </small>
+            </div>
+
           </div>
         </div>
       </div>
