@@ -158,6 +158,8 @@ class AdminController extends Controller
         if ($user->registration->nomor_peserta == '') {
           $user->registration->register();
           $user->registration->sesi = $sesi;
+          $user->registration->save();
+          $user->save();
         }
 
         $data = [
