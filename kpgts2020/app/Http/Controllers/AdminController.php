@@ -98,7 +98,7 @@ class AdminController extends Controller
         $regist->no_hp             = $request->input('no-hp')?:'';
         $regist->no_wa             = $request->input('no-wa')?:'';
         $regist->id_line           = $request->input('id-line')?:'';
-        $regist->sesi              = '0';
+        $regist->sesi              = $request->input('sesi')?:'0';
         $regist->metode_pembayaran = $request->input('metode-pembayaran')?:'';
         $regist->registered_by     = 0;
         $regist->save();
