@@ -137,11 +137,18 @@
           <div class="field is-grouped">
             @if (Auth::user()->canRegistUser())
             <p class="control">
-              <form action="/admin/user/{{$user->id}}/regist" method="POST">
+              <form action="/admin/user/{{$user->id}}/regist/1" method="POST">
               {{csrf_field()}}
               <button class="button is-success" onclick="return confirm('Setelah ini, nomor peserta akan dibuat dan peserta mendapat email resmi dari panitia kpgts2020. Yakin lanjut?')">
                 <i class="fa fa-envelope"> </i> &nbsp;
-                Regist
+                Regist Sesi 1
+              </button>
+              </form>
+              <form action="/admin/user/{{$user->id}}/regist/2" method="POST">
+              {{csrf_field()}}
+              <button class="button is-success" onclick="return confirm('Setelah ini, nomor peserta akan dibuat dan peserta mendapat email resmi dari panitia kpgts2020. Yakin lanjut?')">
+                <i class="fa fa-envelope"> </i> &nbsp;
+                Regist Sesi 2
               </button>
               </form>
             </p>

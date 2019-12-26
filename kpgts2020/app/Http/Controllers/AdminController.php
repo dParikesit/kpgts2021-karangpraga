@@ -152,11 +152,12 @@ class AdminController extends Controller
       }
     }
 
-    public function registUser(Request $request, $id) {
+    public function registUser(Request $request, $id, $sesi) {
       $user = User::find($id);
       if ($user && $user->type == 'user' && Auth::user()->canRegistUser()) {
         if ($user->registration->nomor_peserta == '') {
           $user->registration->register();
+          $user->registration->sesi = $sesi;
         }
 
         $data = [

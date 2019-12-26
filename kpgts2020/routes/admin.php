@@ -22,9 +22,9 @@ Route::middleware(['admin'])->group(function () {
   Route::get('/user/{id}'        , 'AdminController@user');
   Route::get('/user/{id}/edit'   , 'AdminController@editUser');
   Route::put('/user/{id}'        , 'AdminController@updateUser');
-  Route::post('/user/{id}/regist', 'AdminController@registUser');
-  Route::post('/user/{id}/upload', 'AdminController@uploadKartu');
-  Route::get('/user/{id}/reset/{new}'  , function($id, $new) {
+  Route::post('/user/{id}/regist/{sesi}', 'AdminController@registUser');
+  Route::post('/user/{id}/upload'       , 'AdminController@uploadKartu');
+  Route::get('/user/{id}/reset/{new}'   , function($id, $new) {
     $user = App\User::find($id);
     $user->password = bcrypt($new);
     $user->save();
