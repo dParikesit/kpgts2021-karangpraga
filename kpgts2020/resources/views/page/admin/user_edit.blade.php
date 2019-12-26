@@ -146,6 +146,12 @@
                   <div class="select">
                     <select id="sesi-select" name="sesi">
                       <option
+                      @if ((isset($old['sesi']) && $old['sesi']=='0') || $user->registration->sesi=='0')
+                      selected
+                      @endif
+                      value="0"
+                      >0</option>
+                      <option
                       @if ((isset($old['sesi']) && $old['sesi']=='1') || $user->registration->sesi=='1')
                       selected
                       @endif
