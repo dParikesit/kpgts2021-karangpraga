@@ -116,9 +116,7 @@
                 <td> {{ ($user->registration->nomor_peserta)?$user->registration->updated_at : '' }} </td>
                 <td>
                   <a href="/admin/user/{{ $user->id }}"> <span class="tag"><i class="fa fa-search"></i></span> </a>
-                  @if ($user->registration->nomor_peserta == '')
-                  <a href="/admin/user/{{ $user->id }}/edit"> <span class="tag is-success"><i class="fa fa-edit"></i></span> </a>
-                  @endif
+                  <a href="/admin/user/{{ $user->id }}/edit"> <span class="tag is-success"><i class="fa fa-edit"></i></span></a>
                 </td>
                 <td> {{ $user->registration->kelompok_ujian }} </td>
                 <td> {{ $user->registration->sesi }} </td>
