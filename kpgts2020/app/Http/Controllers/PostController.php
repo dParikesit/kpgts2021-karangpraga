@@ -38,7 +38,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        if (!Auth::user()->isSuperAdmin()) {
+        if (!Auth::user()->isAdmin()) {
             return View::make('page.admin.post_invalid');
         }
         return View::make('page.admin.post_create', compact([]));
@@ -52,7 +52,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        if (Auth::user()->isAdmin()) {
+        if (!Auth::user()->isAdmin()) {
             return View::make('page.admin.post_invalid');
         }
         $post = new Post();
@@ -161,7 +161,7 @@ class PostController extends Controller
     {
         $post = Post::find($id);
         
-        if (Auth::user()->isAdmin()) {
+        if (!Auth::user()->isAdmin()) {
             return View::make('page.admin.post_invalid');
         }
 
