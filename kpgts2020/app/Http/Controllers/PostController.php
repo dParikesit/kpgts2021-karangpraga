@@ -52,7 +52,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        if (Auth::id() != 1) {
+        if (Auth::user()->isAdmin()) {
             return View::make('page.admin.post_invalid');
         }
         $post = new Post();
@@ -101,7 +101,7 @@ class PostController extends Controller
     {
         $post = Post::find($id);
 
-        if (Auth::id() != 1 && Auth::id() != $post->post_author) {
+        if (Auth::user()->isAdmin() && Auth::id() != $post->post_author) {
             return View::make('page.admin.post_invalid', compact(['post']));
         }
 
@@ -121,7 +121,7 @@ class PostController extends Controller
     {
         $post = Post::find($id);
         
-        if (Auth::id() != 1 && Auth::id() != $post->post_author) {
+        if (Auth::user()->isAdmin() && Auth::id() != $post->post_author) {
             return View::make('page.admin.post_invalid');
         }
 
@@ -161,7 +161,7 @@ class PostController extends Controller
     {
         $post = Post::find($id);
         
-        if (Auth::id() != 1) {
+        if (Auth::user()->isAdmin()) {
             return View::make('page.admin.post_invalid');
         }
 

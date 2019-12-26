@@ -19,6 +19,7 @@ class CreateRegistrationsTable extends Migration
             $table->string('nomor_peserta');
             $table->string('sma');
             $table->string('kelompok_ujian');
+            $table->integer('sesi');
             $table->integer('biaya');
             $table->string('no_hp');
             $table->string('no_wa');

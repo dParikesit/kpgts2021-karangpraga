@@ -98,6 +98,7 @@ class AdminController extends Controller
         $regist->no_hp             = $request->input('no-hp')?:'';
         $regist->no_wa             = $request->input('no-wa')?:'';
         $regist->id_line           = $request->input('id-line')?:'';
+        $regist->sesi              = '0';
         $regist->metode_pembayaran = $request->input('metode-pembayaran')?:'';
         $regist->registered_by     = 0;
         $regist->save();
@@ -133,7 +134,6 @@ class AdminController extends Controller
     public function updateUser(Request $request, $id) {
       $user = User::find($id);
       if ($user && $user->type == 'user' && Auth::user()->canRegistUser()) {
-
         $user->name                            = $request->input('name')?:'';
         $user->registration->kelompok_ujian    = $request->input('kelompok-ujian')?:'';
         $user->registration->metode_pembayaran = $request->input('metode-pembayaran')?:'';
@@ -141,7 +141,8 @@ class AdminController extends Controller
         $user->registration->no_hp             = $request->input('no-hp')?:'';
         $user->registration->no_wa             = $request->input('no-wa')?:'';
         $user->registration->id_line           = $request->input('id-line')?:'';
-        $user->registration->biaya             = 45000;
+        $user->sesi                            = $request->input('sesi')?:'0';
+        $user->biaya                           = 45000;
         $user->registration->save();
         $user->save();
 
@@ -167,6 +168,7 @@ class AdminController extends Controller
           'no_hp'             => $user->registration->no_hp,
           'no_wa'             => $user->registration->no_wa,
           'id_line'           => $user->registration->id_line,
+          'sesi'              => $user->registration->sesi,
           'metode_pembayaran' => $user->registration->metode_pembayaran,
           'action'            => 'regist',
         ];

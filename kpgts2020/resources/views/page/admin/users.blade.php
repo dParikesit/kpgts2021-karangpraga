@@ -40,7 +40,7 @@
             @endif
           </div>
           <div class="box">
-            <h5 onclick="tooglefeature()" style="cursor: pointer"> \(^o^)/ Klik disini! \(^o^)/ </h5>
+            <h5 onclick="tooglefeature()" style="cursor: pointer"> \(^o^)/ Klik di sini! \(^o^)/ </h5>
             <div id="feature" style="display: none">
               <h6> Toogle Column </h6>
               <p>
@@ -52,7 +52,9 @@
                 <a class="toggle-vis" data-column="5">Mendaftar pada</a> -
                 <a class="toggle-vis" data-column="6">Diverifikasi oleh</a> -
                 <a class="toggle-vis" data-column="7">Diverifikasi pada</a> -
-                <a class="toggle-vis" data-column="8">Verifikasi</a>
+                <a class="toggle-vis" data-column="8">Verifikasi</a> - 
+                <a class="toggle-vis" data-column="9">Kelompok Ujian</a> - 
+                <a class="toggle-vis" data-column="10">Sesi</a>
               </p>
               <h6> Filter Column </h6>
               <p id="filter-1"> Diverifikasi :
@@ -64,11 +66,9 @@
               </p>
               <p id="filter-3"> Asal SMA : </p>
               <p id="filter-4"> Pembayaran : </p>
-              <p id="filter-7"> Diverifikasi oleh : </p>
-              <p id="filter-9"> Peserta Terverifikasi :
-              Saintek _,
-              Soshum _,
-              Total _</p>
+              <p id="filter-6"> Diverifikasi oleh : </p>
+              <p id="filter-9"> Kelompok Ujian :</p>
+              <p id="filter-10"> Sesi :</p>
             </div>
           </div>
           <!-- pacman loader -->
@@ -99,6 +99,8 @@
                 <th> Diverif </th>
                 <th> Verif </th>
                 <th> Aksi </th>
+                <th> Sain/Sos </th>
+                <th> Sesi </th>
               </tr>
             </thead>
             <tbody>
@@ -118,6 +120,8 @@
                   <a href="/admin/user/{{ $user->id }}/edit"> <span class="tag is-success"><i class="fa fa-edit"></i></span> </a>
                   @endif
                 </td>
+                <td> {{ $user->registration->kelompok_ujian }} </td>
+                <td> {{ $user->registration->sesi }} </td>
               </tr>
             @endforeach
             </tbody>
@@ -149,7 +153,7 @@
         "order": [],
         "paging": false,
         "scrollY" : "400px",
-        "sScrollX" : true,
+        "scrollX" : true,
         "scrollCollapse" : true,
         "columnDefs" : [
           {

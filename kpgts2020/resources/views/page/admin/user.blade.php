@@ -86,6 +86,10 @@
               <div class="column is-8"> {{ $user->registration->updated_at }} </div>
             </div>
             <div class="columns">
+              <div class="column is-4"> <strong> Sesi </strong> </div>
+              <div class="column is-8"> {{ $user->registration->sesi }} </div>
+            </div>
+            <div class="columns">
               <div class="column is-4"> <strong> MD5 </strong> (abaikan) </div>
               <div class="column is-8"> {{ md5($user->registration->nomor_peserta) }} </div>
             </div>
