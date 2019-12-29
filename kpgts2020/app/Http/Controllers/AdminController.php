@@ -155,23 +155,38 @@ class AdminController extends Controller
     public function registUser(Request $request, $id, $sesi) {
       $user = User::find($id);
       if ($user && $user->type == 'user' && Auth::user()->canRegistUser()) {
+        $data;
         if ($user->registration->nomor_peserta == '') {
           $user->registration->register($sesi);
+          $data = [
+            'nama'              => $user->name,
+            'nomor_peserta'     => $user->registration->nomor_peserta,
+            'sma'               => $user->registration->sma,
+            'kelompok_ujian'    => $user->registration->kelompok_ujian,
+            'email'             => $user->email,
+            'no_hp'             => $user->registration->no_hp,
+            'no_wa'             => $user->registration->no_wa,
+            'id_line'           => $user->registration->id_line,
+            'sesi'              => $user->registration->sesi,
+            'metode_pembayaran' => $user->registration->metode_pembayaran,
+            'action'            => 'regist',
+          ];
+        } else {
+          $user->registration->sesi = $sesi;
+          $data = [
+            'nama'              => $user->name,
+            'nomor_peserta'     => $user->registration->nomor_peserta,
+            'sma'               => $user->registration->sma,
+            'kelompok_ujian'    => $user->registration->kelompok_ujian,
+            'email'             => $user->email,
+            'no_hp'             => $user->registration->no_hp,
+            'no_wa'             => $user->registration->no_wa,
+            'id_line'           => $user->registration->id_line,
+            'sesi'              => $user->registration->sesi,
+            'metode_pembayaran' => $user->registration->metode_pembayaran,
+            'action'            => 'pindah_sesi',
+          ];
         }
-
-        $data = [
-          'nama'              => $user->name,
-          'nomor_peserta'     => $user->registration->nomor_peserta,
-          'sma'               => $user->registration->sma,
-          'kelompok_ujian'    => $user->registration->kelompok_ujian,
-          'email'             => $user->email,
-          'no_hp'             => $user->registration->no_hp,
-          'no_wa'             => $user->registration->no_wa,
-          'id_line'           => $user->registration->id_line,
-          'sesi'              => $user->registration->sesi,
-          'metode_pembayaran' => $user->registration->metode_pembayaran,
-          'action'            => 'regist',
-        ];
 
         $count = User::where('type', 'user')
                      ->whereHas('registration', function($query) {
