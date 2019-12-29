@@ -156,10 +156,7 @@ class AdminController extends Controller
       $user = User::find($id);
       if ($user && $user->type == 'user' && Auth::user()->canRegistUser()) {
         if ($user->registration->nomor_peserta == '') {
-          $user->registration->register();
-          $user->registration->sesi = $sesi;
-          $user->registration->save();
-          $user->save();
+          $user->registration->register($sesi);
         }
 
         $data = [

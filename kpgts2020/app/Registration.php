@@ -23,7 +23,7 @@ class Registration extends Model
         return $this->belongsTo('App\User', 'registered_by', 'id');
     }
 
-    public function register() {
+    public function register($sesi) {
         $count = Registration::where([
             ['nomor_peserta', '<>', ''],
             ['kelompok_ujian', '=', $this->kelompok_ujian],
@@ -39,6 +39,7 @@ class Registration extends Model
         }
         $nomor_peserta = "008-" . $nomor_peserta;
 
+        $this->sesi = $sesi;
         $this->nomor_peserta = $nomor_peserta;
         $this->registered_by = Auth::id();
         $this->save();

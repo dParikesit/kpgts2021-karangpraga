@@ -33,7 +33,7 @@
                     <th> Metode </th>
                   </tr>
                   <tr>
-                    <td> SMAN 1 UNGARAN </td>
+                    <td> SMAN 1 Ungaran </td>
                     <td> Kamis, 2 Januari 2020 </td>
                     <td> 09.00 </td>
                     <td> Terpusat </td>
@@ -45,27 +45,33 @@
                     <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMAN 5 SEMARANG </td>
+                    <td> SMAN 11 Semarang </td>
+                    <td> Senin, 6 Januari 2020 </td>
+                    <td> 9.00 </td>
+                    <td> Kelas (2 org/kelas) </td>
+                  </tr>
+                  <tr>
+                    <td> SMAN 5 Semarang </td>
                     <td> Senin, 6 Januari 2020 </td>
                     <td> 13.00 </td>
                     <td> Kelas </td>
                   </tr>
                   <tr>
-                    <td> SMAN 3 SEMARANG </td>
+                    <td> SMAN 3 Semarang </td>
                     <td> Senin, 6 Januari 2020 </td>
                     <td> 15.30 </td>
                     <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMA YSKI SEMARANG </td>
+                    <td> SMA YSKI Semarang </td>
                     <td> Selasa, 7 Januari 2020 </td>
                     <td> 08.00 </td>
                     <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMAN 1 DEMAK </td>
+                    <td> SMAN 1 Demak </td>
                     <td> Selasa, 7 Januari 2020 </td>
-                    <td> 08.00 </td>
+                    <td> 12.30 </td>
                     <td> Terpusat </td>
                   </tr>
                   <tr>
@@ -75,13 +81,13 @@
                     <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMAN 2 SEMARANG </td>
+                    <td> SMAN 2 Semarang </td>
                     <td> Rabu, 8 Januari 2020 </td>
                     <td> 08.00 </td>
                     <td> Terpusat </td>
                   </tr>
                   <tr>
-                    <td> SMAN 1 KENDAL </td>
+                    <td> SMAN 1 Kendal </td>
                     <td> Kamis, 9 Januari 2020 </td>
                     <td> 09.00 </td>
                     <td> Kelas </td>
