@@ -141,14 +141,14 @@
               {{csrf_field()}}
               <button class="button is-success" onclick="return confirm('Setelah ini, nomor peserta akan dibuat dan peserta mendapat email resmi dari panitia kpgts2020. Yakin lanjut?')">
                 <i class="fa fa-envelope"> </i> &nbsp;
-                Regist Sesi 1
+                Registrasi Sesi 1
               </button>
               </form>
               <form action="/admin/user/{{$user->id}}/regist/2" method="POST">
               {{csrf_field()}}
               <button class="button is-success" onclick="return confirm('Setelah ini, nomor peserta akan dibuat dan peserta mendapat email resmi dari panitia kpgts2020. Yakin lanjut?')">
                 <i class="fa fa-envelope"> </i> &nbsp;
-                Regist Sesi 2
+                Registrasi Sesi 2
               </button>
               </form>
             </p>

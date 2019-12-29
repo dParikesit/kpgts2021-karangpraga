@@ -173,6 +173,8 @@ class AdminController extends Controller
           ];
         } else {
           $user->registration->sesi = $sesi;
+          $user->registration->save();
+          $user->save();
           $data = [
             'nama'              => $user->name,
             'nomor_peserta'     => $user->registration->nomor_peserta,
