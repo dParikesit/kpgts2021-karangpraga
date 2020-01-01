@@ -113,7 +113,7 @@ class RegistrationController extends Controller
         $registration->no_wa             = $request->input('no-wa')?:'';
         $registration->id_line           = $request->input('id-line')?:'';
         $registration->sesi              = $request->input('sesi')?:'0';
-        $registration->biaya             = 45000;
+        $registration->biaya             = 50000;
         $registration->save();
 
         return redirect('user/dashboard');
