@@ -134,6 +134,13 @@
             </div>
 
             <div class="field">
+              <label class="label">Nomor WA</label>
+              <div class="control">
+                <input class="input" type="text" name="no-wa" placeholder="08xxxxxxxxxx" value="{{ isset($old['no-wa'])?:$user->registration->no_wa }}">
+              </div>
+            </div>
+
+            <div class="field">
               <label class="label">ID Line</label>
               <div class="control">
                 <input class="input" type="text" name="id-line" placeholder="id line" value="{{ isset($old['id-line'])?:$user->registration->id_line }}">
