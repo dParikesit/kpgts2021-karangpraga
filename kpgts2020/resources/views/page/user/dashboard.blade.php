@@ -38,7 +38,13 @@
 
             <p><strong>Hari</strong>: Minggu, 11 Januari 2020 <br/>
                <strong>Tempat</strong>: SMA Negeri 3 Semarang <br/>
-               <strong>Daftar ulang</strong>: 07.00 WIB – 07.45 WIB </p>
+               <strong>Daftar ulang</strong>
+               @if($user->registration->sesi == '1')
+               : 06.30 WIB – 07.00 WIB
+               @else
+               : 10.00 WIB – 10.30 WIB
+               @endif
+            </p>
 
             <p> Peserta diharapkan mengenakan pakaian bebas, sopan, dan <strong>berkerah</strong>. </p>
             <p> Peserta yang tidak melakukan daftar ulang pada rentang waktu tersebut dianggap <strong class="underline">mengundurkan diri</strong>. </p>
