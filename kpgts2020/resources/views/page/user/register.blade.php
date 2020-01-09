@@ -21,10 +21,11 @@
           @if (isset($fail))
           <p style="color: red!important; font-weight: 700"> {{ $fail }} </p>
           @endif
-          <p> <strong>Pembuatan akun bukan berarti peserta sudah terdaftar.</strong>
-          Peserta baru resmi terdaftar setelah membayar dan mendapat email kartu peserta. </p>
+          <!-- <p>Pembuatan akun bukan berarti peserta sudah terdaftar. Peserta baru resmi terdaftar setelah membayar dan mendapat email kartu peserta.</p> -->
+          <p> Registrasi sudah ditutup. Masih dibuka pendaftaran<strong>OTS</strong>. Kuota terbatas. </p>
         </div>
       </div>
+      <!-- 
       <div class="columns">
         <div class="column is-half">
           <form action="/user/register" method="POST">
@@ -76,7 +77,7 @@
           </div>
           </form>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 @endsection
