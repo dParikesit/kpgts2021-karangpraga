@@ -44,27 +44,27 @@
                 </article>
               </a>
 
-              <a targer="_blank" href="//instagram.com/kpgts2020/" style="color: unset!important">
+              <a targer="_blank" href="//instagram.com/kpgts2021/" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
                     <p class="image is-64x64"> <img src="/img/icons/instagram.png"> </p>
                   </figure>
                   <div class="media-content">
                     <div class="content">
-                      <p> <strong>Instagram Account</strong> <br> @kpgts2020 </p>
+                      <p> <strong>Instagram Account</strong> <br> @kpgts2021 </p>
                     </div>
                   </div>
                 </article>
               </a>
 
-              <a targer="_blank" href="mailto:kpgts2020@gmail.com" style="color: unset!important">
+              <a targer="_blank" href="mailto:kpgts2021@gmail.com" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
                     <p class="image is-64x64"> <img src="/img/icons/mail.png"> </p>
                   </figure>
                   <div class="media-content">
                     <div class="content">
-                      <p> <strong>Email</strong> <br> kpgts2020@gmail.com </p>
+                      <p> <strong>Email</strong> <br> kpgts2021@gmail.com </p>
                     </div>
                   </div>
                 </article>

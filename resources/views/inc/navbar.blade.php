@@ -1,7 +1,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <img src="/img/logo-square-putih.png" alt="Logo_KPGTS2020" width="70px">
+            <img src="/img/logo-square-putih.png" alt="Logo_KPGTS2021" width="70px">
           </a>
 
           <div class="navbar-burger burger" data-target="navMenuTransparentExample">

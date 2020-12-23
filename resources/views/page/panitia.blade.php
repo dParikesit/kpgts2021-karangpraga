@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Panitia')
-@section('description', 'Daftar dan susunan panitia yang bertugas di KPGTS 2020')
+@section('description', 'Daftar dan susunan panitia yang bertugas di KPGTS 2021')
 @section('url', '/panitia')
 
 @section('before-styles')

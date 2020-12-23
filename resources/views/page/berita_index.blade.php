@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Berita')
-@section('description', 'Daftar berita KPGTS 2020')
+@section('description', 'Daftar berita KPGTS 2021')
 @section('url', '/berita')
 
 @section('before-styles')

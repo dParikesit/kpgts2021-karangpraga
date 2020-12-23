@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'KPGTS 2020 di {{ $sma_long }}')
+@section('title', 'KPGTS 2021 di {{ $sma_long }}')
 @section('description', 'Dokumentasi Roadshow KPGTS di {{ $sma_long }}')
 @section('url', '/dokumentasi')
 

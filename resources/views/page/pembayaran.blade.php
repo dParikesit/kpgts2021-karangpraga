@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', trans('menu.payment'))
-@section('description', 'Cara melakukan pembayaran untuk TONAMPTN 2020')
+@section('description', 'Cara melakukan pembayaran untuk TONAMPTN 2021')
 @section('url', '/pembayaran')
 
 @section('before-styles')
@@ -78,7 +78,7 @@
                 <figure class="image">
                   <img src="/img/pembayaran/step5.png">
                 </figure>
-                <p> <strong><a target="_blank" href="/user/dashboard"> Dashboard </a> </strong> juga akan terupdate berisi kartu peserta. Jika demikian, SELAMAT! Kamu sudah resmi menjadi peserta TONAMPTN KPGTS2020! </p> 
+                <p> <strong><a target="_blank" href="/user/dashboard"> Dashboard </a> </strong> juga akan terupdate berisi kartu peserta. Jika demikian, SELAMAT! Kamu sudah resmi menjadi peserta TONAMPTN KPGTS2021! </p> 
 
                 <p> Bila ada pertanyaan, tanyakan <strong><a target="_blank" href="/kontak">pada kami</a></strong>. </p> 
 

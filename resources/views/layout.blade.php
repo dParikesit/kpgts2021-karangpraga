@@ -9,13 +9,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
-    <meta property="og:site_name" content="KPGTS 2020" />
-    <meta property="og:image" content="https://kpgts2020.com/img/logo.png" />
+    <meta property="og:site_name" content="KPGTS 2021" />
+    <meta property="og:image" content="https://kpgts2021.com/img/logo.png" />
     <meta property="og:title" content="@yield('title')"/>
     <meta property="og:description" content="@yield('description')"/>
-    <meta property="og:url" content="{{ 'https://kpgts2020.com' }}@yield('url')" />
+    <meta property="og:url" content="{{ 'https://kpgts2021.com' }}@yield('url')" />
 
-    <title>@yield('title') | KPGTS 2020</title>
+    <title>@yield('title') | KPGTS 2021</title>
 
     {{-- Fonts --}}
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif" />

@@ -9,13 +9,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
-    <meta property="og:site_name" content="KPGTS 2020" />
-    <meta property="og:image" content="https://kpgts2020.com/img/logo.png" />
-    <meta property="og:title" content="KPGTS 2020"/>
-    <meta property="og:description" content="Karang Praga Goes To School 2020, acara paguyubuan mahasiswa ITB yang berasal dari Semarang untuk berbagi mengenai kehidupan perkuliahan dan membantu latihan UTBK bagi mahasiswa kelas XII di Semarang dan sekitarnya"/>
-    <meta property="og:url" content="https://kpgts2020.com/" />
+    <meta property="og:site_name" content="KPGTS 2021" />
+    <meta property="og:image" content="https://kpgts2021.com/img/logo.png" />
+    <meta property="og:title" content="KPGTS 2021"/>
+    <meta property="og:description" content="Karang Praga Goes To School 2021, acara paguyubuan mahasiswa ITB yang berasal dari Semarang untuk berbagi mengenai kehidupan perkuliahan dan membantu latihan UTBK bagi mahasiswa kelas XII di Semarang dan sekitarnya"/>
+    <meta property="og:url" content="https://kpgts2021.com/" />
 
-    <title>KPGTS 2020</title>
+    <title>KPGTS 2021</title>
 
     {{-- Fonts --}}
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif" />
@@ -96,14 +96,14 @@
           <div class="container">
             <div class="columns">
               <div class="column is-7" style="color:#f3dcb2">
-                <h1 style="color:#f3dcb2"> KPGTS 2020</h1>
+                <h1 style="color:#f3dcb2"> KPGTS 2021</h1>
                 <p>
-                  KPGTS 2020 (Karang Praga Goes To School 2020) adalah acara yang diadakan
+                  KPGTS 2021 (Karang Praga Goes To School 2021) adalah acara yang diadakan
                   mahasiswa ITB asal Semarang untuk memfasilitasi adik-adik SMA yang ingin masuk ITB
                   atau PTN lainnya dengan memberikan informasi serta mengadakan Try Out.
                 </p>
                 <p>
-                  Secara garis besar, ada dua acara terbesar KPGTS 2020: Roadshow dan Try Out
+                  Secara garis besar, ada dua acara terbesar KPGTS 2021: Roadshow dan Try Out
                 </p>
               </div>
               <div class="column is-5" style="text-align: center">
@@ -189,28 +189,28 @@
               </a>
             </div>
             <div class="column is-offset-4 is-4">
-              <a targer="_blank" href="//instagram.com/kpgts2020/" style="color: unset!important">
+              <a targer="_blank" href="//instagram.com/kpgts2021/" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
                     <p class="image is-64x64"> <img src="/img/icons/instagram.png"> </p>
                   </figure>
                   <div class="media-content">
                     <div class="content">
-                      <p> <strong>Instagram Account</strong> <br> @kpgts2020 </p>
+                      <p> <strong>Instagram Account</strong> <br> @kpgts2021 </p>
                     </div>
                   </div>
                 </article>
               </a>
             </div>
             <div class="column is-offset-4 is-4">
-              <a targer="_blank" href="mailto:kpgts2020@gmail.com" style="color: unset!important">
+              <a targer="_blank" href="mailto:kpgts2021@gmail.com" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
                     <p class="image is-64x64"> <img src="/img/icons/mail.png"> </p>
                   </figure>
                   <div class="media-content">
                     <div class="content">
-                      <p> <strong>Email</strong> <br> kpgts2020@gmail.com </p>
+                      <p> <strong>Email</strong> <br> kpgts2021@gmail.com </p>
                     </div>
                   </div>
                 </article>
@@ -224,7 +224,7 @@
                   </figure>
                   <div class="media-content">
                     <div class="content">
-                      <p> <strong>Web Page</strong> <br> kpgts2020.com </p>
+                      <p> <strong>Web Page</strong> <br> kpgts2021.com </p>
                     </div>
                   </div>
                 </article>
