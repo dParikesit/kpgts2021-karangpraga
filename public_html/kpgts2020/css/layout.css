@@ -8,11 +8,11 @@ main {
 }
 
 a:not(.button) {
-  color: #c88f3c!important;
+  color: #cd994d!important;
 }
 
 a:hover:not(.button) {
-  color: #ffa620!important;
+  color: #996c2b!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
