@@ -1,5 +1,5 @@
 body {
-  color: #442b22;
+  color: #883726;
   width: 100vw;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .cloud-1 {
-  background-image: url('/img/cloud-1.png');
+  background-image: url('/img/cloud-3.png');
   width:300px;
   top:70vh;
 }
@@ -83,14 +83,14 @@ a.navbar-item:hover,
 
 .button.is-outline-blue {
   background-color: transparent;
-  border-color: #442b22;
-  color: #442b22;
+  border-color: #883726;
+  color: #883726;
 }
 
 .button.is-outline-orange {
   background-color: transparent;
-  border-color: #f3dcb2;
-  color: #f3dcb2;
+  border-color: #f5e0cd;
+  color: #f5e0cd;
 }
 
 .footer {

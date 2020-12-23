@@ -16,13 +16,13 @@ a:hover:not(.button) {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #442b22;
+  color: #883726;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .footer h5 {
-  color: #f3dcb2;
+  color: #f5e0cd;
 }
 
 h1 { font-size:  2.5rem; }
@@ -31,18 +31,18 @@ h3 { font-size:  1.5rem; }
 h4 { font-size: 1.25rem; }
 
 .main {
-  background-color: #f3dcb2;
-  background: -webkit-linear-gradient(#f3dcb2, #ffdfa6);
-  background: -o-linear-gradient(#f3dcb2, #ffdfa6);
-  background: -moz-linear-gradient(#f3dcb2, #ffdfa6);
-  background: linear-gradient(#f3dcb2, #ffdfa6);
+  background-color: #f5e0cd;
+  background: -webkit-linear-gradient(#f5e0cd, #f9ede3);
+  background: -o-linear-gradient(#f5e0cd, #f9ede3);
+  background: -moz-linear-gradient(#f5e0cd, #f9ede3);
+  background: linear-gradient(#f5e0cd, #f9ede3);
 }
 
 
 /* Color Pallete
- * #442b22 : coklat
+ * #883726 : coklat
  * #6e584f : coklat muda
- * #f3dcb2 : cream
+ * #f5e0cd : cream
  * #c88f3c : orange
  * #334531 : ijo tua
  * #000000 : item
@@ -75,7 +75,7 @@ h4 { font-size: 1.25rem; }
 .navbar-link:hover,
 a.navbar-item.is-active,
 a.navbar-item:hover  {
-  background-color: #442b22;
+  background-color: #883726;
 }
 
 a.navbar-item span {
@@ -84,21 +84,21 @@ a.navbar-item span {
 }
 
 a.navbar-item:hover span {
-  border-bottom-color: #f3dcb2;
+  border-bottom-color: #f5e0cd;
 }
 
 .navbar-burger span {
   height: 2px;
-  color: #f3dcb2;
+  color: #f5e0cd;
 }
 
 .main .navbar-burger span {
   height: 2px;
-  color: #442b22;
+  color: #883726;
 }
 
 .footer {
-  background-color: #442b22;
+  background-color: #883726;
 }
 
 @media screen and (min-width: 769px) {
@@ -123,7 +123,7 @@ a.navbar-item:hover span {
 strong,
 .menu-label,
 .main h1 {
-  color: #442b22;
+  color: #883726;
 }
 
 .menu-list a {
@@ -138,17 +138,17 @@ strong,
 }
 
 .pagination-link.is-current {
-  border-color: #f3dcb2;
+  border-color: #f5e0cd;
 }
 
 .button.is-success,
 .button.is-success:hover {
-  background-color: #442b22;
+  background-color: #883726;
 }
 
 .button.is-primary,
 .button.is-primary:hover {
-  background-color: #442b22;
+  background-color: #883726;
 }
 
 .button.is-danger,

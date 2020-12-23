@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/img/logo.ico">
-    <meta name="theme-color" content="#442b22" />
+    <meta name="theme-color" content="#883726" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
@@ -87,16 +87,16 @@
         </div>
       </section>
       <div class="clouds">
-        <img class="cloud-1" src="/img/cloud-1.png"></img>
+        <img class="cloud-1" src="/img/cloud-3.png"></img>
         <img class="cloud-2" src="/img/cloud-2.png"></img>
         <img class="cloud-3" src="/img/cloud-3.png"></img>
       </div>
-      <section class="hero is-medium" id="second" style="background-color:#442b22; position: relative;">
+      <section class="hero is-medium" id="second" style="background-color:#883726; position: relative;">
         <div class="hero-body">
           <div class="container">
             <div class="columns">
-              <div class="column is-7" style="color:#f3dcb2">
-                <h1 style="color:#f3dcb2"> KPGTS 2021</h1>
+              <div class="column is-7" style="color:#f5e0cd">
+                <h1 style="color:#f5e0cd"> KPGTS 2021</h1>
                 <p>
                   KPGTS 2021 (Karang Praga Goes To School 2021) adalah acara yang diadakan
                   mahasiswa ITB asal Semarang untuk memfasilitasi adik-adik SMA yang ingin masuk ITB
@@ -142,10 +142,10 @@
           </div>
         </div>
       </section>
-      <section class="hero" id="fourth" style="background-color:#442b22; position: relative;">
+      <section class="hero" id="fourth" style="background-color:#883726; position: relative;">
         <div class="hero-body">
-          <div class="container" style="color:#f3dcb2">
-            <h1 style="color:#f3dcb2"> TONAMPTN </h1>
+          <div class="container" style="color:#f5e0cd">
+            <h1 style="color:#f5e0cd"> TONAMPTN </h1>
             <p>
               KPGTS juga mengadakan Try Out Nasional Masuk Perguruan Tinggi Negeri
               (TONAMPTN) yang digelar bersamaan di lebih dari 30 kota dari seluruh Nusantara.
@@ -167,7 +167,7 @@
           </div>
         </div>
       </section>
-      <section class="hero" style="background-color: transparent; text-align: center; color:#442b22" id="fifth">
+      <section class="hero" style="background-color: transparent; text-align: center; color:#883726" id="fifth">
         <div class="hero-head">
         </div>
         <div class="hero-body">

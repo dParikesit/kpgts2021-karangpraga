@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/img/logo.ico">
-    <meta name="theme-color" content="#442b22" />
+    <meta name="theme-color" content="#883726" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
