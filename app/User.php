@@ -9,7 +9,7 @@ class User extends Authenticatable
 {
     use Notifiable;
 
-    protected $table = 'kpgts2020_users';
+    protected $table = 'kpgts2021_users';
 
     /**
      * The attributes that are mass assignable.

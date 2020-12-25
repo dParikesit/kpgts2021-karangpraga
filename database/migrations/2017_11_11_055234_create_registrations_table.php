@@ -13,7 +13,7 @@ class CreateRegistrationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('kpgts2020_registrations', function (Blueprint $table) {
+        Schema::create('kpgts2021_registrations', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id')->unsigned();
             $table->string('nomor_peserta');
@@ -28,8 +28,8 @@ class CreateRegistrationsTable extends Migration
             $table->integer('registered_by')->nullable()->unsigned();
             $table->timestamps();
 
-            $table->foreign('user_id')->references('id')->on('kpgts2020_users')->onDelete('cascade');
-            $table->foreign('registered_by')->references('id')->on('kpgts2020_users')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('kpgts2021_users')->onDelete('cascade');
+            $table->foreign('registered_by')->references('id')->on('kpgts2021_users')->onDelete('cascade');
         });
     }
 
@@ -40,6 +40,6 @@ class CreateRegistrationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kpgts2020_registrations');
+        Schema::dropIfExists('kpgts2021_registrations');
     }
 }

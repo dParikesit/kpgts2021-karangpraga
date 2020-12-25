@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('path.public', function() {
-            return realpath(base_path().'/../public_html/kpgts2020');
+            return realpath(base_path().'/../public_html/kpgts2021');
         });
     }
 }

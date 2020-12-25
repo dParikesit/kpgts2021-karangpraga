@@ -18,4 +18,4 @@ if ($uri !== '/' && file_exists(__DIR__.$uri)) {
     return false;
 }
 
-require_once __DIR__.'/../public_html/kpgts2020/index.php';
+require_once __DIR__.'/../public_html/kpgts2021/index.php';

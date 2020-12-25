@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Registration extends Model
 {
 
-    protected $table = 'kpgts2020_registrations';
+    protected $table = 'kpgts2021_registrations';
     
     /**
      * Get the user that owns the registration data.

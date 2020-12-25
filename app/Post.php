@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
 
-    protected $table = 'kpgts2020_posts';
+    protected $table = 'kpgts2021_posts';
 
     public function author()
     {

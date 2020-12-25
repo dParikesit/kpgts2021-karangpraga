@@ -85,7 +85,7 @@ class AdminController extends Controller
         $user = new User();
         $user->name                            = $request->input('name')?:'';
         $user->email                           = $request->input('email')?:'';
-        $user->password                        = bcrypt('kpgts2020');
+        $user->password                        = bcrypt('kpgts2021');
         $user->type                            = 'user';
         $user->save();
 

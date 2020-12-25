@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APP_NAME', 'KPGTS2020'),
+    'name' => env('APP_NAME', 'kpgts2021'),
 
     /*
     |--------------------------------------------------------------------------
@@ -51,7 +51,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://kpgts2020.com/'),
+    'url' => env('APP_URL', 'https://kpgts2021.com/'),
 
     /*
     |--------------------------------------------------------------------------

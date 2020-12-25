@@ -52,6 +52,10 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+            'sslmode' => env('DB_SSLMODE', 'prefer'),
+            'options' => (env('MYSQL_SSL') && extension_loaded('pdo_mysql')) ? [
+                PDO::MYSQL_ATTR_SSL_KEY    => '/ssl/DigiCertGlobalRootG2.crt.pem',
+            ] : []
         ],
 
         'pgsql' => [
@@ -91,7 +95,7 @@ return [
     |
     */
 
-    'migrations' => 'kpgts2020_migrations',
+    'migrations' => 'kpgts2021_migrations',
 
     /*
     |--------------------------------------------------------------------------
