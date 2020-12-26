@@ -25,7 +25,7 @@ class PostController extends Controller
         $posts_page_right = min($posts->lastPage(), max($posts->currentPage() + 2, $posts_page_left + 4));
         return View::make('page.admin.post_index', compact([
             'posts',
-            'posts_count', 
+             
             'posts_page_left',
             'posts_page_right'
         ]));
