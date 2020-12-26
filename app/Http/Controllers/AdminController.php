@@ -52,7 +52,7 @@ class AdminController extends Controller
 
     public function user($id) {
       $user = User::find($id);
-      if ($user && $user->type == 'user') {
+      if ($user && $user->type == 'admin') {
         return View::make('page.admin.user', compact(['user']));
       } else {
         return abort(404);
