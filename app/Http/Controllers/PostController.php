@@ -62,7 +62,7 @@ class PostController extends Controller
         $post->post_cat     = $request->input('post-cat');
         $post->post_desc    = $request->input('post-desc');
         $post->post_content = $request->input('post-content');
-        $post->post_media   = '/img/post-media/'.$request->input('post-slug').'.'.$request->file('post-media')->getClientOriginalExtension();
+        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_title.'.png';
         $post->post_status  = $request->input('post-status');
         if ($post->post_status == 'Pending') {
             $post->post_date    = new Carbon($request->input('post-date') . $request->input('post-time'));
@@ -71,9 +71,6 @@ class PostController extends Controller
             $post->post_date    = Carbon::now();
         }
         $post->save();
-
-        $post_media_name = $request->input('post-slug').'.'.$request->file('post-media')->getClientOriginalExtension();
-        $request->file('post-media')->move(public_path('img/post-media'), $post_media_name);
         
         return redirect('/admin/post');
     }
@@ -130,9 +127,6 @@ class PostController extends Controller
         $post->post_cat     = $request->input('post-cat');
         $post->post_desc    = $request->input('post-desc');
         $post->post_content = $request->input('post-content');
-        if ($request->file('post-media')) {
-            $post->post_media   = '/img/post-media/'.$request->input('post-slug').'.'.$request->file('post-media')->getClientOriginalExtension();
-        }
 
         $post->post_status  = $request->input('post-status');
         if ($post->post_status == 'Pending') {
@@ -142,11 +136,6 @@ class PostController extends Controller
             $post->post_date    = Carbon::now();
         }
         $post->save();
-
-        if ($request->file('post-media')) {
-            $post_media_name = $request->input('post-slug').'.'.$request->file('post-media')->getClientOriginalExtension();
-            $request->file('post-media')->move(public_path('img/post-media'), $post_media_name);
-        }
         
         return redirect('/admin/post/' . $id);
     }
