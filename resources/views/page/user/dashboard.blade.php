@@ -42,7 +42,7 @@
                @if($user->registration->sesi == '1')
                : 06.30 WIB – 07.00 WIB
                @else
-               : 10.00 WIB – 10.30 WIB
+               : 06.30 WIB – 07.00 WIB
                @endif
             </p>
 
@@ -69,7 +69,7 @@
               <p> Biaya pendaftaran: <strong>Rp. 50.000 ,00</strong> </p>
               <p> PJ sekolah untuk {{ $user->registration->sma }}: {!! $pj[$user->registration->sma] !!} </p>
             @endif
-            <p> Harap diperhatikan bahwa setelah pembayaran kami terima, email verifikasi dan Kartu Peserta akan dikirimkan ke <strong>{{ $user->email }}</strong> maksimal <strong>3 hari kerja</strong>. </p>
+            <p> Harap diperhatikan bahwa setelah pembayaran kami terima, status akan berubah menjadi <strong>SUDAH Terverifikasi</strong> maksimal <strong>3 hari kerja</strong>. </p>
             <p> Apabila ada pertanyaan lebih lanjut, silakan langsung tanyakan melalui <strong><a href="https://line.me/ti/g2/swALBY9YsweEltKo80C4Xw">Line Square Ca-ITB Semarang 2021</a></strong> pada chatroom “Tryout”, atau hubungi <strong><a href="/kontak">Official Account KPGTS 2021</a></strong> </p>
           @endif
         </div>
