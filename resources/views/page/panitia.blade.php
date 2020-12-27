@@ -80,7 +80,7 @@
                   Muhammad Rey Shazni Helmi (STEI 20) <br>
                   Binar Waskito (FTI 20) <br>
                   Elvina Permata Putri Purwanto (SBM 23) <br>
-                  Yubella Ratna Feirani (FTSL 2020)
+                  Yubella Ratna Feirani (FTSL 20)
                 </div>
                 <div class="column is-4"> <strong> Desain Grafis </strong> </div>
                 <div class="column is-8">
