@@ -30,114 +30,88 @@
             </div>
             <div class="column is-12">
               <h2> Ketua </h2>
-              <h4> <strong> Teresa Amalia (GD 18) </strong> </h4>
+              <h4> <strong> Muhammad Faiq Dhiya Ul Haq (STI 19) </strong> </h4>
+
+              <h2> Sekretaris </h2>
+              <h4> <strong> Rahma Zanafia Priyanta (MR 19) </strong></h4>
+
+              <h2> Bendahara </h2>
+              <h4> <strong> Dina Syarafina Aribah (MB 22) </strong></h4>
 
               <h2> Acara </h2>
+              <h4> <strong> Ihza Fikry Aryaditama Arrozie (MG 19) </strong> </h4>
               <div class="columns is-multiline">
                 <div class="column is-4"> <strong> Roadshow </strong> </div>
                 <div class="column is-8">
-                  <strong> Gian Vere Adonis (MG 18) </strong> <br>
-                  Michael Bertrand (FITB 19) <br/>
-                  Dina Syarafina Aribah (SBM 19) <br/>
-                  Azis Arbi Kurniawan (FTSL 19) <br/>
-                  Novia Pramesthi (SF 19) <br/>
-                  Masulana Hayu Jarwadi (FTMD 19)
+                  <strong> Ilham Rahadian Widyananda (SI 19) </strong> <br>
+                  Yumaa Fadhil Naufal Hidayat (FTMD 20) <br>
+                  Salsabila Gitta Arifani (FTI 20) <br>
+                  Farrel Rheza Prakusya (FTTM 20) <br>
+                  Laksamana Vixell Tanjaya Hartono (STEI 20) <br>
+                  Fadya Zalfa Rahmanita (FTTM 20) <br>
+                  Gibran Kastara Pandega Pragata (FTSL 20) <br>
+                  Immanuella Natasha Girsang (FTMD 20) <br>
+                  Risyad Rachman (SBM 23)
                 </div>
-                <div class="column is-4"> <strong> TONAMPTN </strong> </div>
+                <div class="column is-4"> <strong> Tryout </strong> </div>
                 <div class="column is-8">
-                  <strong> Nanda Yulanda (TK 18) </strong> <br>
-                  Allandra Dewantara (FTI 19) <br>
-                  Rahma Zanafia (FTI 19) <br>
-                  Bima Satriatama (MG 18)
-                </div>
-              </div>
-
-              <h2> Lapangan </h2>
-              <h4> <strong> Eduardus Ariasena (EB 18) </strong></h4>
-              <div class="columns is-multiline">
-                <div class="column is-4"> <strong> Registrasi </strong> </div>
-                <div class="column is-8">
-                  <strong> Adhi Satriyatama (TK 18) </strong> </br>
-                  Yudith Pratama I (FTTM 19) <br>
-                  Ardhya Garini (FMIPA 19)
-                </div>
-                <div class="column is-4"> <strong> Logistik </strong> </div>
-                <div class="column is-8">
-                  <strong> Dismas Widyanto (EL 18) </strong> </br>
-                  Aditya Kusuma Aji (FTI 19) <br>
-                  Bevan Harsetya Adyatama (FTSL 19)
-                </div>
-                <div class="column is-4"> <strong> Konsumsi </strong> </div>
-                <div class="column is-8">
-                  <strong> Dewi Mawaddatus S (TK 18) </strong> <br>
+                  <strong> Widya Anugerah Putra (IF 19) </strong> <br>
+                  Muhammad Faishol Arriq (FTTM 20) <br>
+                  Reinaldi Santoso (FTTM 20) <br>
+                  Rafida Khairani (FTI 20) <br>
+                  Della Altania Yuwono (SF 20) <br>
+                  Dave Theopilus Soegiharto (FTSL 20) <br>
+                  Khansa Kamila Qurrota A'yun (FTI 20)
                 </div>
               </div>
 
               <h2> Humas </h2>
-              <h4> <strong> Hilman Danu (MS 18) </strong></h4>
+              <h4> <strong> Azis Arbi Kurniawan (KL 19) </strong></h4>
               <div class="columns is-multiline">
-                <div class="column is-4"> <strong> Perizinan </strong> </div>
+                <div class="column is-4"> <strong> Publikasi dan Dokumentasi </strong> </div>
                 <div class="column is-8">
-                  <strong> Faiz Hasan (TL 18) </strong> </br>
-                  Fairuz Zahira H (FTTM 19) <br>
-                  Ilham Rahadian W (FTSL 19)
+                  <strong> Yudith Pratama Ibrahim (TG 19) </strong> </br>
+                  Dinda Desintya Ramadani (FTSL 20) <br>
+                  Rizky Maulana Acyuta Dzaky (FTSL 20) <br>
+                  Dani Hibatullah (FTMD 20) <br>
+                  Adelia Paramesti (FTSL 20) <br>
+                  Talitha Amalia Salsabila (FTI 20) <br>
+                  Muhammad Ammarul Nafi' (FTMD 20) <br>
+                  Muhammad Rey Shazni Helmi (STEI 20) <br>
+                  Binar Waskito (FTI 20) <br>
+                  Elvina Permata Putri Purwanto (SBM 23) <br>
+                  Yubella Ratna Feirani (FTSL 2020)
                 </div>
-                <div class="column is-4"> <strong> Publikasi </strong> </div>
+                <div class="column is-4"> <strong> Desain Grafis </strong> </div>
                 <div class="column is-8">
-                  <strong> Qorry Aina (KU 18) </strong> </br>
-                  Dimas Prayoga T (FTTM 19) <br>
-                  Muhammad Bintang Fadhiil (FTTM 19)
+                  <strong> Qanissa Aghara (SR 19) </strong> </br>
                 </div>
               </div>
 
-              <h2> Sekretaris </h2>
-              <h4> <strong> Audrey Xaveria (PG 18) </strong></h4>
+              <h2> Operasional </h2>
+              <h4> <strong> Allandra Dewantara (TI 19) </strong></h4>
               <div class="columns is-multiline">
-                <div class="column is-4"> <strong> Relasi Panitia </strong> </div>
+                <div class="column is-4"> <strong> Registrasi </strong> </div>
                 <div class="column is-8">
-                  <strong> Andjani Widya (EB 18) </strong>
-                </div>
-                <div class="column is-4"> <strong> Pengarsipan </strong> </div>
-                <div class="column is-8">
-                  <strong> Labitta Qonitah (AR 18) </strong>
-                </div>
-              </div>
-
-              <h2> Bendahara </h2>
-              <h4> <strong> Mutia Nabila (TA 18) </strong></h4>
-              <div class="columns is-multiline">
-                <div class="column is-4"> <strong> Sponsorship </strong> </div>
-                <div class="column is-8">
-                  <strong> Fadhillah Hidayat (AR 18) </strong> <br>
-                  Dafakhrizal (SBM 19) <br>
-                  Dwianditya Hanif (STEI 19) <br>
-                  Muhammad Daffa (FTTM 19)
-                </div>
-                <div class="column is-4"> <strong> Dana Usaha </strong> </div>
-                <div class="column is-8">
-                  <strong> Michelle Theresia (IF 18) </strong>
-                </div>
-              </div>
-
-              <h2> Kreatif </h2>
-              <h4> <strong> Nadia Winda (TI 18) </strong></h4>
-              <div class="columns is-multiline">
-                <div class="column is-4"> <strong> Dokumentasi </strong> </div>
-                <div class="column is-8">
-                  <strong> Aulia Azizah (FKK 18) </strong> <br>
-                  Johanes (FTTM 19) <br>
-                  Anggid Primastiti (FTSL 19)
+                  <strong> Tito Wijayanto (TK 19) </strong> <br>
+                  Ashfia Pramita Nurfitriani (FTSL 20) <br>
+                  Wahyu Sasangka Jati (FTSL 20) <br>
+                  Khoirunnisa Aprilia Santikasari (SITH-S 20) <br>
+                  Chairul Syifa (FTI 20) <br>
+                  Syifa Mutia Rahma (FMIPA 20) <br>
+                  Adelia Sheralyn Najwa (FTI 20) <br>
+                  Hughie Raymonelika Manggala (STEI 20) <br>
+                  Marshal Zulkarnaen Hartono (FTTM 20) <br>
+                  Nadhira (SBM 23) <br>
+                  Cisna Argipuspa Rahmaesthi S (FTSL 20)
                 </div>
                 <div class="column is-4"> <strong> IT </strong> </div>
                 <div class="column is-8">
-                  <strong> Jonathan Yudi Gunawan (IF 18) </strong> <br>
-                  Widya Anugrah P (STEI 19) <br>
-                  M Fatchur Rochman (STEI 19)
-                </div>
-                <div class="column is-4"> <strong> Desain </strong> </div>
-                <div class="column is-8">
-                  <strong> Azalea Ardra (DKV 18) </strong> <br>
-                  Qanisha (FSRD 19)
+                  <strong> Akeyla Pradia Naufal (IF 19) </strong> <br>
+                  Marcellus Michael Herman Kahari (STEI 20) <br>
+                  Dimas Shidqi Parikesit (STEI 20) <br>
+                  Aditya Prawira Nugroho (STEI 20) <br>
+                  Kristo Abdi Wiguna (STEI 20)
                 </div>
               </div>
             </div>
