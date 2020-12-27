@@ -96,8 +96,8 @@ class UserController extends Controller
         "SMAN 1 Ungaran" => "<strong>Belum ada PJ</strong> (line: -, -)",
         "SMA Semesta" => "<strong>Belum ada PJ</strong> (line: -, -)",
         "SMA Karangturi" => "<strong>Belum ada PJ</strong> (line: -, -)",
-        "Kolese Loyola" => "<strong>Kristo Abdi Wiguna</strong> (line: kristoabdi, 081904840212)",
-        "SMAN 1 Kendal" => "<strong>Fara</strong> (wa: 087735423287)"
+        "Kolese Loyola" => "<strong>Belum ada PJ</strong> (line: -, -)",
+        "SMAN 1 Kendal" => "<strong>Belum ada PJ</strong> (line: -, -)"
         // "Nama_sekolah" => "<strong>NAMA_PJ_DIGANTI_YAA</strong> (line: ID_LINENYA_DIGANTI_YAA, NO_TELP_DIGANTI_YAA)",
       ];
       return View::make('page.user.dashboard', compact(['biaya', 'pj', 'user']));
@@ -127,14 +127,6 @@ class UserController extends Controller
           "answer" => "Silakan menunggu maksimal 3 hari, pastikan transfer hingga 3 digit terakhir."
         ],
         [
-          "question" => "Saya sudah membayar dan sudah diverifikasi tapi belum mendapat email kartu peserta",
-          "answer" => "Pastikan email yang anda daftarkan benar, cek juga bagian email bagian spam. Bila masih ada kendala, silakan kontak salah satu CP yang ada di Dashboard."
-        ],
-        [
-          "question" => "Saya tidak bisa download kartu peserta yang sudah dikirim ke email saya karena satu dan lain hal (contoh : lupa password email, email terhapus, dll)",
-          "answer"   => "Silakan kontak salah satu CP yang ada di Dashboard."
-        ],
-        [
           "question" => "Saya salah memasukkan alamat email dan belum membayar. Apakah alamat email bisa diubah?",
           "answer"   => "Tidak. Anda sebaiknya membuat akun baru."
         ],
@@ -149,18 +141,6 @@ class UserController extends Controller
         [
           "question" => "Kalau PJ sekolah saya susah ditemui apa yang harus saya lakukan?",
           "answer"   => "Silakan ganti metode pembayaran menjadi Transfer."
-        ],
-        [
-          "question" => "Apakah akan ada pendaftaran TONAMPTN secara OTS?",
-          "answer"   => "Tergantung apakah masih ada sisa kuota atau tidak. Disarankan untuk TIDAK mendaftar secara OTS."
-        ],
-        [
-          "question" => "Jika pada hari H TONAMPTN saya lupa membawa kartu peserta apa yang harus saya lakukan?",
-          "answer"   => "Diharapkan untuk TIDAK LUPA membawa kartu peserta."
-        ],
-        [
-          "question" => "Setelah membayar melalui transfer / PJ Sekolah apa yang harus dilakukan?",
-          "answer"   => "Silakan tunggu email verifikasi dari panitia maksimal 3 hari setelah pembayaran."
         ],
       ];
       return View::make('page.user.faq', compact(['faqs']));
