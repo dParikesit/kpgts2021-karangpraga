@@ -84,7 +84,7 @@ class UserController extends Controller
       $user = Auth::user();
       $biaya = $user->registration->biaya;
       if ($user->registration->metode_pembayaran == 'Transfer') {
-        $biaya += $user->registration->id;
+        $biaya += $user->registration->user_id;
       }
       $pj = [
         "SMAN 1 Semarang" => "<strong>Belum ada PJ</strong> (line: -, -)",
