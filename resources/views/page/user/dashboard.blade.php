@@ -56,7 +56,7 @@
               <p> No. Rek BCA: <strong>0091909897</strong> a/n. <strong>Adelia Sheralyn Najwa</strong> </p>
               <p> No. Rek Mandiri: <strong>1350016533976</strong> a/n. <strong>Ashfia Pramita N</strong> </p>
               <p> Jenius: <strong>$dparikesit</strong> a/n. <strong>Dimas Shidqi Parikesit</strong> </p>
-              <p> Gopay: <strong>085640574844</strong> a/n. <strong>Syifa Mutia</strong> </p>
+              <p> Gopay: <strong>085640574844</strong> a/n. <strong>Chairul Syifa</strong> </p>
               <p> Ovo: <strong>082242340494</strong> a/n. <strong>Hughie Raymonelika Manggala</strong> </p>
               <p> Dana: <strong>081273820434</strong> a/n. <strong>Cisna Argipuspa</strong> </p>
             @else
