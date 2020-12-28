@@ -57,7 +57,7 @@
                     <img src="/img/pembayaran/step3-trf.png">
                   </figure>
 
-                  <p>Keempat, ikuti cara pembayaran yang tertera di <strong><a target="_blank" href="/user/dashboard">dashboard</a></strong>. Transfer ke rekening yang tertera <strong>sampai 3 digit terakhir</strong>.</p>
+                  <p>Keempat, ikuti cara pembayaran yang tertera di <strong><a target="_blank" href="/user/dashboard">dashboard</a></strong>. Transfer ke rekening yang tertera.</p>
                   <figure class="image">
                     <img src="/img/pembayaran/step4-trf.png">
                   </figure>
@@ -73,13 +73,8 @@
                     <img src="/img/pembayaran/step4-pj.png">
                   </figure>
                 </div>
-
-                <p>Kelima, tunggu konfirmasi dari panitia. Bila sudah, akan dikirim email ke email yang kamu daftarkan. Email akan dikirim <strong> paling lambat 3 hari setelah pembayaran</strong>. Bila masih belum dapat, silakan <strong><a target="_blank" href="/kontak">kontak kami</a></strong> secepatnya. Email akan berisi seperti ini:</p>
-                <figure class="image">
-                  <img src="/img/pembayaran/step5.png">
-                </figure>
-                <p> <strong><a target="_blank" href="/user/dashboard"> Dashboard </a> </strong> juga akan terupdate berisi kartu peserta. Jika demikian, SELAMAT! Kamu sudah resmi menjadi peserta TONAMPTN KPGTS2021! </p> 
-
+                
+                <p> Pembayaran akan kami verifikasi maksimal 3 hari. Apabila sudah diverifikasi, status kamu akan otomatis berubah menjadi SUDAH Terverifikasi dan kamu juga akan mendapatkan Nomor Peserta</p>
                 <p> Bila ada pertanyaan, tanyakan <strong><a target="_blank" href="/kontak">pada kami</a></strong>. </p> 
 
               </div>
