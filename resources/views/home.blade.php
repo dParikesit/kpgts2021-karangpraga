@@ -175,6 +175,20 @@
             <h1> Kontak </h1>
             <div class="columns is-multiline">
             <div class="column is-offset-4 is-4">
+              <a targer="_blank" href="https://line.me/ti/g2/08hUAaxWQ2kfi_-tQnBOTg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" style="color: unset!important">
+                <article class="media">
+                  <figure class="media-left">
+                    <p class="image is-64x64"> <img src="/img/icons/line.png"> </p>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p> <strong>Line OpenChat</strong> <br> Aku Masuk ITB 2021 #SMG </p>
+                    </div>
+                  </div>
+                </article>
+              </a>
+            </div>
+            <div class="column is-offset-4 is-4">
               <a targer="_blank" href="https://lin.ee/ewVA4on" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
