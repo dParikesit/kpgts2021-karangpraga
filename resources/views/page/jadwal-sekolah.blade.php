@@ -22,6 +22,16 @@
           <div class="columns is-multiline">
             <div class="column is-12">
               <h1> {{ trans('menu.schedule_school') }} </h1>
+              <h2> <strong> Roadshow KPGTS hadir kembali tahun ini! </strong> </h2>
+              <h4> <strong> Acara Roadshow ini apa sih? </strong> </h4>
+              <h4> Jadi, roadshow adalah salah satu rangkaian acara dari KPGTS untuk mengenalkan Institut Teknologi Bandung kepada para siswa  kelas 12 SMA sederajat. Diharapkan acara ini bisa membantu teman-teman untuk mendapat gambaran yang lebih jelas tentang fakultas dan semua hal yang berkaitan dengan ITB! </h4>
+              <h4> <strong> Kalau tahun ini roadshownya gimana kak? </strong> </h4>
+              <h4> Nah, tahun ini  Roadshow KPGTS bakal sedikit berbeda dengan tahun sebelumnya karena acaranya  akan dilakukan melalui platform zoom! Jadi, kita bisa ngikutin acaranya di rumah masing-masing!! </h4>
+              <h4> <strong> Kapan sih kak Roadshownya? </strong> </h4>
+              <h4> Roadshownya bakal dilaksanain tanggal 15 Januari 2021. Buat waktu dan linknya bakal menyusul. Jadi stay tune ya buat kabar berikutnya!! </h4>
+              <h4> Yakali kalian gak ikut? </h4>
+              <h4> Yuk langsung daftar aja!! </h4>
+
             </div>
             <div class="column is-12" >
               <div class="content">
