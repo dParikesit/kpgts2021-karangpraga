@@ -75,12 +75,26 @@ class RegistrationController extends Controller
             'SMAN 3 Semarang',
             'SMAN 4 Semarang',
             'SMAN 5 Semarang',
+            'SMAN 5 Semarang',
+            'SMAN 6 Semarang',
+            'SMAN 7 Semarang',
+            'SMAN 8 Semarang',
+            'SMAN 9 Semarang',
+            'SMAN 10 Semarang',
+            'SMAN 11 Semarang',
             'SMAN 12 Semarang',
+            'SMAN 13 Semarang',
+            'SMAN 14 Semarang',
+            'SMAN 15 Semarang',
+            'SMAN 16 Semarang',
+            'SMAN 1 Kendal',
             'SMAN 1 Ungaran',
+            'SMAN 1 Demak',
+            'SMA YSKI',
             'SMA Semesta',
             'SMA Karangturi',
             'Kolese Loyola',
-            'SMAN 1 Kendal',
+            'Lainnya'
         ];
 
         return View::make('page.user.registration_edit', compact(['registration', 'smas']));

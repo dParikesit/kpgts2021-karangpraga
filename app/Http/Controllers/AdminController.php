@@ -67,12 +67,25 @@ class AdminController extends Controller
             'SMAN 3 Semarang',
             'SMAN 4 Semarang',
             'SMAN 5 Semarang',
+            'SMAN 6 Semarang',
+            'SMAN 7 Semarang',
+            'SMAN 8 Semarang',
+            'SMAN 9 Semarang',
+            'SMAN 10 Semarang',
+            'SMAN 11 Semarang',
             'SMAN 12 Semarang',
+            'SMAN 13 Semarang',
+            'SMAN 14 Semarang',
+            'SMAN 15 Semarang',
+            'SMAN 16 Semarang',
+            'SMAN 1 Kendal',
             'SMAN 1 Ungaran',
+            'SMAN 1 Demak',
+            'SMA YSKI',
             'SMA Semesta',
             'SMA Karangturi',
             'Kolese Loyola',
-            'SMAN 1 Kendal',
+            'Lainnya'
         ];
         return View::make('page.admin.user_create', compact(['smas']));
       } else {
@@ -113,18 +126,31 @@ class AdminController extends Controller
       $user = User::find($id);
       if ($user && $user->type == 'user' && Auth::user()->canRegistUser()) {
         $smas = [
-            'SMAN 1 Semarang',
-            'SMAN 2 Semarang',
-            'SMAN 3 Semarang',
-            'SMAN 4 Semarang',
-            'SMAN 5 Semarang',
-            'SMAN 12 Semarang',
-            'SMAN 1 Ungaran',
-            'SMA Semesta',
-            'SMA Karangturi',
-            'Kolese Loyola',
-            'SMAN 1 Kendal',
-        ];
+          'SMAN 1 Semarang',
+          'SMAN 2 Semarang',
+          'SMAN 3 Semarang',
+          'SMAN 4 Semarang',
+          'SMAN 5 Semarang',
+          'SMAN 6 Semarang',
+          'SMAN 7 Semarang',
+          'SMAN 8 Semarang',
+          'SMAN 9 Semarang',
+          'SMAN 10 Semarang',
+          'SMAN 11 Semarang',
+          'SMAN 12 Semarang',
+          'SMAN 13 Semarang',
+          'SMAN 14 Semarang',
+          'SMAN 15 Semarang',
+          'SMAN 16 Semarang',
+          'SMAN 1 Kendal',
+          'SMAN 1 Ungaran',
+          'SMAN 1 Demak',
+          'SMA YSKI',
+          'SMA Semesta',
+          'SMA Karangturi',
+          'Kolese Loyola',
+          'Lainnya'
+      ];
         return View::make('page.admin.user_edit', compact(['user', 'smas']));
       } else {
         return abort(404);
@@ -195,7 +221,7 @@ class AdminController extends Controller
                         $query->where('nomor_peserta', '<>', '');
                       }
         )->count();
-        $gscript_url = [
+        /* $gscript_url = [
           'https://script.google.com/macros/s/AKfycbyKckxTxRTXPF_wfaTk3Xy6p5rhBLpyeiu2dFdjK2vwdQC8DMrn/exec'
         ];
         $ch = curl_init($gscript_url[0]);
@@ -205,7 +231,7 @@ class AdminController extends Controller
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
         $resp = curl_exec($ch);
-        curl_close($ch);
+        curl_close($ch); */
 
         return redirect('/admin/user/'.$id);
       } else {
