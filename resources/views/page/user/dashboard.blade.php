@@ -36,22 +36,16 @@
             .</p>
             <p>Jangan lupa, TONAMPTN KPGTS 2021 akan dilaksanakan pada:
 
-            <p><strong>Hari</strong>: Minggu, 11 Januari 2021 <br/>
-               <strong>Tempat</strong>: SMA Negeri 3 Semarang <br/>
-               <strong>Daftar ulang</strong>
-               @if($user->registration->sesi == '1')
-               : 06.30 WIB – 07.00 WIB
-               @else
-               : 06.30 WIB – 07.00 WIB
-               @endif
+            <p><strong>Hari</strong>: Minggu, 16 Januari 2021 <br/>
+               <strong>Tempat</strong>: Zoom Meeting <br/>
             </p>
 
             <p> Peserta diharapkan mengenakan pakaian bebas, sopan, dan <strong>berkerah</strong>. </p>
             <p> Peserta yang tidak melakukan daftar ulang pada rentang waktu tersebut dianggap <strong class="underline">mengundurkan diri</strong>. </p>
 
             <p> Apabila ada pertanyaan-pertanyaan lebih lanjut mengenai Tryout, silakan tanyakan melalui: </p>
-                1.&nbsp;<strong><a href="/kontak" target="_blank">Contact Person Panitia KPGTS 2021</a></strong><br/>
-                2.&nbsp;<strong><a href="https://lin.ee/ewVA4on">Line&nbsp;Official Account KPGTS 2021</a></strong></p>
+                <strong><a href="/kontak" target="_blank">Contact Person Panitia KPGTS 2021</a></strong><br/>
+                
           @else 
             <p> Status anda <strong>BELUM terverifikasi</strong>. </p>
             <p> Silahkan lakukan pembayaran agar akun kamu terverifikasi. Setelah melakukan pembayaran, peserta Tryout akan mendapat Nomor dan Kartu Peserta melalui email sebagai bukti verifikasi. </p>
@@ -69,9 +63,9 @@
               <p> Biaya pendaftaran: <strong>Rp. 50.000 ,00</strong> </p>
               <p> PJ sekolah untuk {{ $user->registration->sma }}: {!! $pj[$user->registration->sma] !!} </p>
             @endif
-            <p> Harap diperhatikan bahwa setelah pembayaran kami terima, status akan berubah menjadi <strong>SUDAH Terverifikasi</strong> maksimal <strong>3 hari kerja</strong>. </p>
-            <p> Apabila ada pertanyaan lebih lanjut, silakan langsung tanyakan melalui <strong><a href="https://line.me/ti/g2/swALBY9YsweEltKo80C4Xw">Line Square Ca-ITB Semarang 2021</a></strong> pada chatroom “Tryout”, atau hubungi <strong><a href="/kontak">Official Account KPGTS 2021</a></strong> </p>
+            <p> Harap diperhatikan bahwa setelah pembayaran kami terima, status akan berubah menjadi <strong>SUDAH Terverifikasi</strong> maksimal <strong>3 hari kerja</strong>.
           @endif
+            <p> Apabila ada pertanyaan lebih lanjut, silakan langsung tanyakan melalui <strong><a href="https://line.me/ti/g2/08hUAaxWQ2kfi_-tQnBOTg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">Line OpenChat Aku Masuk ITB 2021 #SMG</a></strong> atau hubungi <strong><a href="/kontak">Official Account KPGTS 2021</a></strong> </p>
         </div>
       </div>
     </div>

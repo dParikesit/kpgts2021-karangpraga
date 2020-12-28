@@ -24,13 +24,20 @@
               <h1> {{ trans('menu.contact') }} </h1>
             </div>
             <div class="column is-12">
-              <h5> Contact Person: </h5>
-              <p> Adhi Satriyatama (085785490091, LINE: adhist08) </p>
-              <p> Teresa Amalia (082226250334, LINE: tereamap) </p>
-              <p> Jonathan Yudi (089522509060, LINE: jonathan1506) </p>
-            </div>
-            <div class="column is-12">
               <h5> Social Media </h5>
+              <a targer="_blank" href="https://line.me/ti/g2/08hUAaxWQ2kfi_-tQnBOTg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" style="color: unset!important">
+                <article class="media">
+                  <figure class="media-left">
+                    <p class="image is-64x64"> <img src="/img/icons/line.png"> </p>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p> <strong>Line OpenChat</strong> <br>Aku Masuk ITB 2021 #SMG</p>
+                    </div>
+                  </div>
+                </article>
+              </a>
+
               <a targer="_blank" href="https://lin.ee/ewVA4on" style="color: unset!important">
                 <article class="media">
                   <figure class="media-left">
