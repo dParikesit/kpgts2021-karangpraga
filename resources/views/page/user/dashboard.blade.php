@@ -51,7 +51,7 @@
             <p> Silahkan lakukan pembayaran agar akun kamu terverifikasi. Setelah melakukan pembayaran, peserta Tryout akan mendapat Nomor dan Kartu Peserta melalui email sebagai bukti verifikasi. </p>
             <p> Kamu memilih pembayaran melalui : <strong>{{ $user->registration->metode_pembayaran }}</strong> </p>
             @if ($user->registration->metode_pembayaran == 'Transfer')
-              <p> Biaya pendaftaran: <strong>Rp. 50.000 ,00</strong> </p>
+              <p> Biaya pendaftaran: <strong>Rp. 10.000 ,00</strong> </p>
               <p> No. Rek BNI: <strong>0841807007</strong> a/n. <strong>Muhammad Faiq Dhiya Ul Haq</strong> </p>
               <p> No. Rek BCA: <strong>0091909897</strong> a/n. <strong>Adelia Sheralyn Najwa</strong> </p>
               <p> No. Rek Mandiri: <strong>1350016533976</strong> a/n. <strong>Ashfia Pramita N</strong> </p>
@@ -60,7 +60,7 @@
               <p> Ovo: <strong>082242340494</strong> a/n. <strong>Hughie Raymonelika Manggala</strong> </p>
               <p> Dana: <strong>081273820434</strong> a/n. <strong>Cisna Argipuspa</strong> </p>
             @else
-              <p> Biaya pendaftaran: <strong>Rp. 50.000 ,00</strong> </p>
+              <p> Biaya pendaftaran: <strong>Rp. 10.000 ,00</strong> </p>
               <p> PJ sekolah untuk {{ $user->registration->sma }}: {!! $pj[$user->registration->sma] !!} </p>
             @endif
             <p> Harap diperhatikan bahwa setelah pembayaran kami terima, status akan berubah menjadi <strong>SUDAH Terverifikasi</strong> maksimal <strong>3 hari kerja</strong>.
