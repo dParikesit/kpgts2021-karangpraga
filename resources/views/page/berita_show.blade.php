@@ -31,7 +31,7 @@
           
           <div class="column is-half" style="margin: auto">
             <figure class="image">
-              <img src="{{ $post->post_media }}" alt="{{ $post->post_slug }}.png">
+              <img src='/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.png' alt="{{ $post->post_slug }}.png">
             </figure>
           </div>
 
