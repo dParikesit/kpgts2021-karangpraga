@@ -84,7 +84,7 @@ class PostController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
-        
+        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.jpg';
         return View::make('page.admin.post_show', compact(['post']));
     }
 
