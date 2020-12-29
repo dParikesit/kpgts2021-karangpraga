@@ -62,7 +62,7 @@ class PostController extends Controller
         $post->post_cat     = $request->input('post-cat');
         $post->post_desc    = $request->input('post-desc');
         $post->post_content = $request->input('post-content');
-        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_title.'.png';
+        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.png';
         $post->post_status  = $request->input('post-status');
         if ($post->post_status == 'Pending') {
             $post->post_date    = new Carbon($request->input('post-date') . $request->input('post-time'));
