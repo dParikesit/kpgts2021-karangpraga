@@ -62,7 +62,7 @@ class PostController extends Controller
         $post->post_cat     = $request->input('post-cat');
         $post->post_desc    = $request->input('post-desc');
         $post->post_content = $request->input('post-content');
-        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.jpg';
+        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.png';
         $post->post_status  = $request->input('post-status');
         if ($post->post_status == 'Pending') {
             $post->post_date    = new Carbon($request->input('post-date') . $request->input('post-time'));
@@ -84,7 +84,7 @@ class PostController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
-        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.jpg';
+        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.png';
         return View::make('page.admin.post_show', compact(['post']));
     }
 
@@ -101,7 +101,7 @@ class PostController extends Controller
         if (Auth::user()->isAdmin() && Auth::id() != $post->post_author) {
             return View::make('page.admin.post_invalid', compact(['post']));
         }
-        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.jpg';
+        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.png';
         $post_date = new Carbon($post->post_date);
 
         return View::make('page.admin.post_edit', compact(['post','post_date']));
@@ -127,7 +127,7 @@ class PostController extends Controller
         $post->post_cat     = $request->input('post-cat');
         $post->post_desc    = $request->input('post-desc');
         $post->post_content = $request->input('post-content');
-        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.jpg';
+        $post->post_media   = '/public_html/kpgts2021/img/post-media/'.$post->post_slug.'.png';
         $post->post_status  = $request->input('post-status');
         if ($post->post_status == 'Pending') {
             $post->post_date    = new Carbon($request->input('post-date') . $request->input('post-time'));
