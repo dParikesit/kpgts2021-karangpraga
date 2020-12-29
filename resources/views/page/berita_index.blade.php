@@ -28,7 +28,7 @@
         <div class="column is-one-quarter-tablet is-full-mobile">
           <a href="/berita/{{ $post->post_slug }}">
           <figure class="image">
-            <img src="{{ $post->post_media }}" alt="thumb">
+            <img src='/public_html/kpgts2021/img/post-media/{{ $post->post_slug }}.png' alt="thumb">
           </figure>
           <div class="box {{ $post->post_status }}" id="post-{{ $post->id }}">
             <div class="columns is-multiline">
