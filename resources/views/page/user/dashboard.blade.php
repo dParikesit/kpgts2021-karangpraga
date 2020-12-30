@@ -29,7 +29,7 @@
             <p> Informasi mengenai pembayaran, kartu peserta, dan lainnya akan diberikan bila data peserta sudah diisi. </p>
           @elseif ($user->registration->nomor_peserta != '')
             <p> Status anda <strong>SUDAH terverifikasi</strong> dengan nomor peserta <strong>{{ $user->registration->nomor_peserta }}</strong>.</p>
-            <p> Kartu Peserta sudah dikirim ke email <strong>{{ $user->email }}</strong>
+            
             @if (file_exists(public_path()."/kartu-peserta/".md5($user->registration->nomor_peserta).".pdf"))
             , atau download di <strong><a href="/kartu-peserta/{{md5($user->registration->nomor_peserta)}}.pdf">sini</a></strong>
             @endif
