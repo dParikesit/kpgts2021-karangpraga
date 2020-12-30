@@ -37,7 +37,7 @@
             <p>Jangan lupa, TONAMPTN KPGTS 2021 akan dilaksanakan pada:
 
             <p><strong>Hari</strong>: Minggu, 16 Januari 2021 <br/>
-               <strong>Tempat</strong>: Zoom Meeting <br/>
+               <strong>Tempat</strong>: Pahamify <br/>
             </p>
 
             <p> Peserta diharapkan mengenakan pakaian bebas, sopan, dan <strong>berkerah</strong>. </p>
