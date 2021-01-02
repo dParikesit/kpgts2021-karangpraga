@@ -60,7 +60,7 @@
               <p> Ovo: <strong>082242340494</strong> a/n. <strong>Hughie Raymonelika Manggala</strong> </p>
               <p> Dana: <strong>081273820434</strong> a/n. <strong>Cisna Argipuspa</strong> </p>
             @else
-              <p> Biaya pendaftaran: <strong>Rp. 10.000 ,00</strong></p>
+              <p> Biaya pendaftaran: <strong>Rp. 15.000 ,00</strong></p>
               <p> PJ sekolah untuk {{ $user->registration->sma }}: {!! $pj[$user->registration->sma] !!} </p>
             @endif
             <p> Harap diperhatikan bahwa setelah pembayaran kami terima, status akan berubah menjadi <strong>SUDAH Terverifikasi</strong> maksimal <strong>3 hari kerja</strong>.
