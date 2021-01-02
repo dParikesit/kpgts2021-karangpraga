@@ -168,7 +168,7 @@ class AdminController extends Controller
         $user->registration->no_wa             = $request->input('no-wa')?:'';
         $user->registration->id_line           = $request->input('id-line')?:'';
         $user->registration->sesi              = $request->input('sesi')?:'0';
-        $user->registration->biaya             = 10000;
+        $user->registration->biaya             = 15000;
         $user->registration->save();
         $user->save();
 
