@@ -41,7 +41,7 @@
             </p>
 
             <p> Peserta diharapkan mengenakan pakaian bebas, sopan, dan <strong>berkerah</strong>. </p>
-            <p> Peserta yang tidak melakukan daftar ulang pada rentang waktu tersebut dianggap <strong class="underline">mengundurkan diri</strong>. </p>
+            
 
             <p> Apabila ada pertanyaan-pertanyaan lebih lanjut mengenai Tryout, silakan tanyakan melalui: </p>
                 <strong><a href="/kontak" target="_blank">Contact Person Panitia KPGTS 2021</a></strong><br/>
