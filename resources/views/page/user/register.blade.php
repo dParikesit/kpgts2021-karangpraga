@@ -16,17 +16,18 @@
           <h1> Registrasi Akun Peserta TONAMPTN </h1>
         </div>
       </div>
-      <!--
+      
       <div class="columns">
         <div class="column is-half">
           @if (isset($fail))
           <p style="color: red!important; font-weight: 700"> {{ $fail }} </p>
           @endif
-          <!'-- <p>Pembuatan akun bukan berarti peserta sudah terdaftar. Peserta baru resmi terdaftar setelah membayar dan mendapat email kartu peserta.</p> --'>
-          <p> Registrasi sudah ditutup. Masih dibuka pendaftaran<strong>OTS</strong>. Kuota terbatas. </p>
+          <!-- <p>Pembuatan akun bukan berarti peserta sudah terdaftar. Peserta baru resmi terdaftar setelah membayar dan mendapat email kartu peserta.</p> -->
+          <p> Registrasi sudah ditutup.</p>
         </div>
       </div>
-      --> 
+      
+      <!-- 
       <div class="columns">
         <div class="column is-half">
           <form action="/user/register" method="POST">
@@ -79,6 +80,7 @@
           </form>
         </div>
       </div>
+      -->
     </div>
   </section>
 @endsection
